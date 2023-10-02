@@ -90,7 +90,7 @@ Lowcoder建议您尽量​**将所有表单、输入框放在一个列中**​�
 
 ![](../assets/m2-20231002181025-ab9jgu2.png)​
 
-2. 创建一个[临时状态](../javascript-in-majiang/using-temp-state)​`showHide`​，设置默认值为 `false`​。然后为链接组件添加一个**单击**事件，动作选择​**设置临时状态**​，再选择创建好的临时状态 `showHide`​，再参照下图输入值：
+2. 创建一个[临时状态](../javascript-in-lowcoder/using-temp-state)​`showHide`​，设置默认值为 `false`​。然后为链接组件添加一个**单击**事件，动作选择​**设置临时状态**​，再选择创建好的临时状态 `showHide`​，再参照下图输入值：
 
 ![](../assets/m3-20231002181025-so5c6f2.png)​
 

@@ -21,7 +21,7 @@ description: >-
 
 <figure><img src="../assets/3-20230810212038-dd9ev8i.png" alt=""><figcaption></figcaption></figure>
 
-类似地，评分组件的值是先通过 `{{currentItem.rate}}` 获取到当前对象数据的 `rate` 字段，再通过[使用 JavaScript](../javascript-in-majiang/javascript-query.md) 进行基础运算得到。
+类似地，评分组件的值是先通过 `{{currentItem.rate}}` 获取到当前对象数据的 `rate` 字段，再通过[使用 JavaScript](../javascript-in-lowcoder/javascript-query.md) 进行基础运算得到。
 
 <figure><img src="../assets/4-20230810212039-kwn1t3k.png" alt=""><figcaption></figcaption></figure>
 

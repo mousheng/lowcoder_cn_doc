@@ -19,7 +19,7 @@ UI 模式下，图表组件支持的**数据**格式与[表格组件](../compone
 ]
 ```
 
-这里同样支持 [JavaScript 表达式](../javascript-in-majiang/javascript-query.md)，您可以在 `{{ }}` 中编写 JS 表达式来引用其他组件或查询的数据，并将不符合要求的数据格式进行转换。
+这里同样支持 [JavaScript 表达式](../javascript-in-lowcoder/javascript-query.md)，您可以在 `{{ }}` 中编写 JS 表达式来引用其他组件或查询的数据，并将不符合要求的数据格式进行转换。
 
 例如，查询 `query1` 当前返回值如下：
 
@@ -37,7 +37,7 @@ UI 模式下，图表组件支持的**数据**格式与[表格组件](../compone
 }
 ```
 
-新建一个[转换器](../javascript-in-majiang/using-transformer.md) `transformer1`，通过如下 JS 代码对数据格式进行转换：
+新建一个[转换器](../javascript-in-lowcoder/using-transformer.md) `transformer1`，通过如下 JS 代码对数据格式进行转换：
 
 ```javascript
 let dates = query1.data.date

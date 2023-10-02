@@ -16,7 +16,7 @@ Lowcoder中所有组件的属性面板都有样式一栏，通过修改默认的
 
 ![](../assets/3-20231002181022-ixfrq9y.png)​
 
-也可以在输入框中使用 `{{}}`​ 写 [JavaScript 表达式](../javascript-in-majiang/writing-javascript)，使组件样式根据不同条件动态变化。
+也可以在输入框中使用 `{{}}`​ 写 [JavaScript 表达式](../javascript-in-lowcoder/writing-javascript)，使组件样式根据不同条件动态变化。
 
 ![](../assets/n1-20231002181022-cu9arho.gif)​
 
@@ -54,7 +54,7 @@ Lowcoder中所有组件的属性面板都有样式一栏，通过修改默认的
 
 ### 动态切换主题
 
-**开发者**在编辑应用时，可以[使用 JavaScript](../javascript-in-majiang) 引用全局变量 `theme`​ 和调用其内置方法 `theme.switchTo()`​，使**终端用户**在使用该应用时可以主动切换用户本地的主题。
+**开发者**在编辑应用时，可以[使用 JavaScript](../javascript-in-lowcoder) 引用全局变量 `theme`​ 和调用其内置方法 `theme.switchTo()`​，使**终端用户**在使用该应用时可以主动切换用户本地的主题。
 
 全局变量 `theme`​ 包含三个字段，可在左侧数据浏览器下方查看：
 
@@ -157,7 +157,7 @@ Lowcoder中所有组件的属性面板都有样式一栏，通过修改默认的
 设置全局提示有三种方法：
 
 1. 设置事件的响应动作——全局提示。详情请参阅[事件](../event-handler#%E5%85%A8%E5%B1%80%E6%8F%90%E7%A4%BA)文档。
-2. Javascript 查询中，使用内置函数设置全局提示。详情请参阅[message（全局提示）](../javascript-in-majiang/use-built-in-js-functions#message%EF%BC%88%E5%85%A8%E5%B1%80%E6%8F%90%E7%A4%BA%EF%BC%89)。
+2. Javascript 查询中，使用内置函数设置全局提示。详情请参阅[message（全局提示）](../javascript-in-lowcoder/use-built-in-js-functions#message%EF%BC%88%E5%85%A8%E5%B1%80%E6%8F%90%E7%A4%BA%EF%BC%89)。
 3. 使用查询的通知面板。详情请参阅[查询](../how-to-write-query#%E9%80%9A%E7%9F%A5%E9%9D%A2%E6%9D%BF)。
 
 例如：在查询的**通知面板**中，可以勾选​**执行查询失败后通知**​，您可以设置失败的判定条件和提示文案：

@@ -10,7 +10,7 @@ Lowcoder是一款开发者友好的低代码平台。通过开箱即用的组件
 
 1. 通过 GUI 快速[连接数据源](./datasource)。
 2. 编写少量代码[构建查询](./how-to-write-query)。
-3. 使用开箱即用的组件库轻松[搭建应用界面](./drag-and-drop)，使用 [JavaScript 表达式](./javascript-in-majiang/writing-javascript)绑定查询数据。
+3. 使用开箱即用的组件库轻松[搭建应用界面](./drag-and-drop)，使用 [JavaScript 表达式](./javascript-in-lowcoder/writing-javascript)绑定查询数据。
 4. 触发查询/控制组件/响应用户行为/...，通过设置[事件触发](./event-handler)提供响应式 UI 交互。
 5. [预览](./app-release)并将您的应用[分享给其他人](./member-manage#%E6%B7%BB%E5%8A%A0%E6%88%90%E5%91%98)。
 
