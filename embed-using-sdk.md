@@ -1,16 +1,16 @@
-# 使用 SDK 嵌入码匠应用
+# 使用 SDK 嵌入Lowcoder应用
 
 ---
 
 * [https://majiang.co/docs/embed-using-sdk](https://majiang.co/docs/embed-using-sdk)
-* 使用 SDK 嵌入码匠应用
+* 使用 SDK 嵌入Lowcoder应用
 * 2023-10-02 23:32:50
 
 ---
 
-使用 SDK 嵌入码匠应用
+使用 SDK 嵌入Lowcoder应用
 
-通过使用 SDK，您可以在已有系统中嵌入码匠应用或模块。
+通过使用 SDK，您可以在已有系统中嵌入Lowcoder应用或模块。
 
 ## 安装
 
@@ -26,9 +26,9 @@ yarn add openblocks-sdk
 npm install openblocks-sdk
 ```
 
-## 向已有应用添加码匠应用/模块
+## 向已有应用添加Lowcoder应用/模块
 
-1. 在码匠上发布应用/模块。
+1. 在Lowcoder上发布应用/模块。
 2. 确认应用/模块权限，在未登录或者没有权限的情况下会自动跳转到登录页面。
 3. 在应用中添加以下代码。
 
@@ -49,10 +49,10 @@ import { OpenblocksAppView } from "openblocks-sdk";
 
 |**名称**|**类型**|**是否必填**|**描述**|
 | ------------------------| -----------------------------| ---------------------| -------------------------------------------------------------------------------------------------|
-|appId|string|未指定 DSL 时必填|码匠应用的 ID。|
+|appId|string|未指定 DSL 时必填|Lowcoder应用的 ID。|
 |dsl|Object|未指定 appId 时必填|离线应用的 DSL，即导出的应用 JSON 中的 applicationDsl 字段的值。只有在未设置 appId 的时候生效。|
-|baseUrl|string|是|码匠 API 的 base url。|
-|webUrl|string|非公开应用必填|码匠平台的 URL，用于跳转登录页面。|
+|baseUrl|string|是|Lowcoder API 的 base url。|
+|webUrl|string|非公开应用必填|Lowcoder平台的 URL，用于跳转登录页面。|
 |moduleDsl|Object|否|如果应用中包含 Module，通过该字段设置 module 的 DSL，key 是 moduleId，value 是 mdoule 的 DSL。|
 |onModuleEventTriggered|(eventName: string) => void|否|当模块的自定义事件触发时调用该方法。此方法仅适用于模块。|
 |onModuleOutputChange|(output: any) => void|否|当模块的输出值改变时调用该方法。此方法仅适用于模块。|

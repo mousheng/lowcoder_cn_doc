@@ -8,7 +8,7 @@
 
 ## 模块的创建与使用
 
-1. 登录进入码匠主页面，在左侧边栏选择  **模块->新建一个模块** ，可以新建并进入模块编辑界面。
+1. 登录进入Lowcoder主页面，在左侧边栏选择  **模块->新建一个模块** ，可以新建并进入模块编辑界面。
 
 <figure><img src="../.gitbook/assets/2-20230810212301-ef5nn8e.png" alt=""><figcaption></figcaption></figure>
 
@@ -167,7 +167,7 @@
 
 <figure><img src="../.gitbook/assets/23-20230810212301-u0r25vt.png" alt=""><figcaption></figcaption></figure>
 
-3. 从数据源创建表单后，码匠会同时自动创建一个基于表单的插入查询 `form1SubmitToUsers`，并绑定到表单的提交事件，其作用是提交表单时自动更新表 `users`。在上层应用/模块中，表的更新是一个需要实时监听及响应的事件，需实时刷新表格来展示最新值。因此，这里我们**增加一项**模块事件 `UserUpdated`，并选择在查询 `form1SubmitToUsers` 执行成功后**触发模块事件** `UserUpdated`：
+3. 从数据源创建表单后，Lowcoder会同时自动创建一个基于表单的插入查询 `form1SubmitToUsers`，并绑定到表单的提交事件，其作用是提交表单时自动更新表 `users`。在上层应用/模块中，表的更新是一个需要实时监听及响应的事件，需实时刷新表格来展示最新值。因此，这里我们**增加一项**模块事件 `UserUpdated`，并选择在查询 `form1SubmitToUsers` 执行成功后**触发模块事件** `UserUpdated`：
 
 <figure><img src="../.gitbook/assets/24-20230810212301-i3dej68.png" alt=""><figcaption></figcaption></figure>
 

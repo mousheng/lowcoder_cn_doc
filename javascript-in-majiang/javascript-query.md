@@ -1,6 +1,6 @@
 # JavaScript 查询
 
-在码匠中构建应用时，相较于在 `{{ }}`​ 内编写 [JavaScript 表达式](https://majiang.co/docs/javascript-in-majiang/writing-javascript)，通过 JavaScript 查询功能可以编写和运行更加复杂的 JavaScript 代码。这里的 JavaScript 代码支持的功能包括：
+在Lowcoder中构建应用时，相较于在 `{{ }}`​ 内编写 [JavaScript 表达式](https://majiang.co/docs/javascript-in-majiang/writing-javascript)，通过 JavaScript 查询功能可以编写和运行更加复杂的 JavaScript 代码。这里的 JavaScript 代码支持的功能包括：
 
 * 调用库函数
 * 编写自定义函数并引用其返回值
@@ -200,7 +200,7 @@ return query1.run({
 
 ​![](assets/2-20231002175904-zmwxqc5.png)​
 
-此外，如果想为企业下所有应用设置预加载的 JavaScript 库与脚本，可以进入码匠主页 -> 设置 -> **高级设置**中进行配置：
+此外，如果想为企业下所有应用设置预加载的 JavaScript 库与脚本，可以进入Lowcoder主页 -> 设置 -> **高级设置**中进行配置：
 
 ​![](assets/3-20231002175904-4hs5yne.png)​
 

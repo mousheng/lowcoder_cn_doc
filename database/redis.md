@@ -2,7 +2,7 @@
 
 ## 准备
 
-首先您要获取到 Redis 数据库的连接配置，然后参考[IP 白名单](https://majiang.co/docs/ip-allowlist)文档将码匠的 IP 地址添加到数据库网络的白名单中（按需配置）。
+首先您要获取到 Redis 数据库的连接配置，然后参考[IP 白名单](https://majiang.co/docs/ip-allowlist)文档将Lowcoder的 IP 地址添加到数据库网络的白名单中（按需配置）。
 
 ## 新建数据源
 

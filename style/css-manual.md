@@ -1,6 +1,6 @@
 # 自定义 CSS 注意事项
 
-本文档介绍在码匠中通过编写[自定义 CSS](https://majiang.co/docs/style#%E8%87%AA%E5%AE%9A%E4%B9%89css) 代码实现丰富样式的注意事项。
+本文档介绍在Lowcoder中通过编写[自定义 CSS](https://majiang.co/docs/style#%E8%87%AA%E5%AE%9A%E4%B9%89css) 代码实现丰富样式的注意事项。
 
 1. 编写自定义 CSS 代码时，请尽量使用如下 CSS 选择器：
 
@@ -70,7 +70,7 @@ scanne
 ```
 
 4. 除以上所述外，请避免使用其他类名，尤其是形如 `sc-dkiQaF bfTYCO`​ 的类名，极有可能在版本迭代过程中发生变化。
-5. 码匠的自定义 CSS 功能内置 [Stylis](https://stylis.js.org/) 轻量级 CSS 预处理工具。因此，开发者可使用嵌套的语法来提高效率，例如：
+5. Lowcoder的自定义 CSS 功能内置 [Stylis](https://stylis.js.org/) 轻量级 CSS 预处理工具。因此，开发者可使用嵌套的语法来提高效率，例如：
 
 ```scss
 .text1 {

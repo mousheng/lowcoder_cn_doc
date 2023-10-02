@@ -1,8 +1,8 @@
 # 使用 REST API
 
-在码匠中，您如果连接的是 REST API 数据源，那么您可以在查询中向 API 发送各种 HTTP 请求。本文档将介绍如何向 REST API 发送 HTTP 请求。
+在Lowcoder中，您如果连接的是 REST API 数据源，那么您可以在查询中向 API 发送各种 HTTP 请求。本文档将介绍如何向 REST API 发送 HTTP 请求。
 
-码匠中创建一个 REST API 查询有两种方式：
+Lowcoder中创建一个 REST API 查询有两种方式：
 
 1. 新建一个 REST API 数据源，数据源中可配置查询所公用的参数：如 URL 前缀、Headers 和 Parameters，还可设置数据源的[认证方式](https://majiang.co/docs/api/rest-api#%E8%AE%A4%E8%AF%81%E6%96%B9%E5%BC%8F) (None/Basic/Digest)，之后基于该数据源创建查询。
 
@@ -24,7 +24,7 @@
 
 HTTP Header 允许客户端和服务器通过 request 和 response 传递上下文信息。一个 Header 由名称（不区分大小写）后跟一个冒号，冒号后跟具体的值（不带换行符）组成。
 
-在码匠中，您可以填写 Header 的 key 和 value，分别代表其名称和值。如下图指定了 `Cookie`​ 和 `Accept-Encoding`​：
+在Lowcoder中，您可以填写 Header 的 key 和 value，分别代表其名称和值。如下图指定了 `Cookie`​ 和 `Accept-Encoding`​：
 
 **       **![cookie](assets/cookie-20231002173506-yukio4k.png "cookie")[           ](https://majiang.co/static/b0f00ed7427bf1106ebb60ff91350d60/21b4d/cookie.png)
 
@@ -34,6 +34,6 @@ HTTP Header 允许客户端和服务器通过 request 和 response 传递上下�
 
 **       **![body](assets/body-20231002173506-c5f9dkv.png "body")[           ](https://majiang.co/static/d7a8db95cffc571ebd97aa71ff921ac7/84cc5/body.png)
 
-当您选择 Body 类型后，码匠会自动为您填写相应 Content-Type，例如：当 Body 选择 JSON 格式，Content-Type 将自动填写 `application-json`​：
+当您选择 Body 类型后，Lowcoder会自动为您填写相应 Content-Type，例如：当 Body 选择 JSON 格式，Content-Type 将自动填写 `application-json`​：
 
 **       **![body2](assets/body2-20231002173506-8vp3upk.png "body2")[           ](https://majiang.co/static/cb84f9e681b2acb1e4658d058501bbd6/21b4d/body2.png)

@@ -1,6 +1,6 @@
 # 使用 SQL
 
-在码匠中，您如果连接的是 SQL 类数据源（MySQL、PostgreSQL、Microsoft SQL Server 等），则可以通过编写 SQL 语句或者 GUI 模式构建查询。
+在Lowcoder中，您如果连接的是 SQL 类数据源（MySQL、PostgreSQL、Microsoft SQL Server 等），则可以通过编写 SQL 语句或者 GUI 模式构建查询。
 
 ## 读请求
 
@@ -69,7 +69,7 @@ select * from orders where date = {{date1.value}} order by amount
 
 ### 动态排序
 
-码匠默认开启 [PreparedStatement](https://majiang.co/docs/using-sql#%E4%BD%BF%E7%94%A8%E9%A2%84%E7%BC%96%E8%AF%91(preparedstatement)%E9%98%B2%E6%AD%A2sql%E6%B3%A8%E5%85%A5)，因此不能使用这样的写法进行 **order by** 拼接：
+Lowcoder默认开启 [PreparedStatement](https://majiang.co/docs/using-sql#%E4%BD%BF%E7%94%A8%E9%A2%84%E7%BC%96%E8%AF%91(preparedstatement)%E9%98%B2%E6%AD%A2sql%E6%B3%A8%E5%85%A5)，因此不能使用这样的写法进行 **order by** 拼接：
 
 ```sql
 -- ❌ 不支持这种写法：
@@ -151,7 +151,7 @@ id = {{userInfo.selectedRow.id}}
 
 ## GUI 模式
 
-码匠支持通过 GUI 模式编写查询（目前支持 MySQL 数据源）。GUI 模式支持大多数写入操作：插入、更新、删除、批量插入等。利用 GUI 构建数据写入，更加简便且不易出错，并且它有助于避免意外的破坏性操作，比如删除表。
+Lowcoder支持通过 GUI 模式编写查询（目前支持 MySQL 数据源）。GUI 模式支持大多数写入操作：插入、更新、删除、批量插入等。利用 GUI 构建数据写入，更加简便且不易出错，并且它有助于避免意外的破坏性操作，比如删除表。
 
 新建查询，选择 MySQL 数据源，选择 GUI 模式，然后便可以利用 GUI 来构建查询。
 
@@ -177,7 +177,7 @@ id = {{userInfo.selectedRow.id}}
 
 ​![](assets/6-20231002173502-eayw8v7.png)​
 
-如果筛选器的结果包含多行，码匠默认只修改其中一条数据（对应 SQL 中的 `limit 1`​），如果想要更新多行筛选结果，需手动勾选​**允许修改多行**​：
+如果筛选器的结果包含多行，Lowcoder默认只修改其中一条数据（对应 SQL 中的 `limit 1`​），如果想要更新多行筛选结果，需手动勾选​**允许修改多行**​：
 
 ​![](assets/7-20231002173502-5k7i357.png)​
 
@@ -189,7 +189,7 @@ id = {{userInfo.selectedRow.id}}
 
 ## 使用预编译 (PreparedStatement) 防止 SQL 注入
 
-为了防止 [SQL 注入](https://www.runoob.com/mysql/mysql-sql-injection.html)，码匠默认对 SQL 查询进行预编译 (PreparedStatement)，然后 `{{ }}`​ 内的 JavaScript 表达式对应的值会被作为参数进行替换并得到最终 SQL。这样即便 `{{ }}`​ 参数里有敏感字符（如 `or '1=1'`​）也只被作为字段值而非 SQL 指令处理。
+为了防止 [SQL 注入](https://www.runoob.com/mysql/mysql-sql-injection.html)，Lowcoder默认对 SQL 查询进行预编译 (PreparedStatement)，然后 `{{ }}`​ 内的 JavaScript 表达式对应的值会被作为参数进行替换并得到最终 SQL。这样即便 `{{ }}`​ 参数里有敏感字符（如 `or '1=1'`​）也只被作为字段值而非 SQL 指令处理。
 
 ```sql
 -- 1. 先转化为预编译 SQL：

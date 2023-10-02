@@ -26,7 +26,7 @@
 
 **       **![metadata21](assets/metadata21-20231002173453-c3dx8pt.png "metadata21")[           ](https://majiang.co/static/faf75f7a0802ae8abb213c5ebc862dea/f53a0/metadata21.png)
 
-除此之外，输入查询语句时，码匠也能根据**元数据**触发自动补全 (autosuggestion) 功能，因此您可以更快更准确地输入想要的内容。例如：输入字段的前几个字母时，下方会弹出一个菜单供您选择想要输入的字段，如下图：
+除此之外，输入查询语句时，Lowcoder也能根据**元数据**触发自动补全 (autosuggestion) 功能，因此您可以更快更准确地输入想要的内容。例如：输入字段的前几个字母时，下方会弹出一个菜单供您选择想要输入的字段，如下图：
 
 **       **![metadata31](assets/metadata31-20231002173453-4xficjf.png "metadata31")[           ](https://majiang.co/static/d1423a17233dce5e129dcedbfd152685/b85c3/metadata31.png)
 
@@ -75,7 +75,7 @@
 
 > #### 💡 说明
 >
-> 您也可以设置查询执行成功/失败后的事件触发来实现[全局提示](https://majiang.co/docs/event-handler#%E5%85%A8%E5%B1%80%E6%8F%90%E7%A4%BA)，但码匠更建议您直接使用通知面板，因为其更方便快捷。
+> 您也可以设置查询执行成功/失败后的事件触发来实现[全局提示](https://majiang.co/docs/event-handler#%E5%85%A8%E5%B1%80%E6%8F%90%E7%A4%BA)，但Lowcoder更建议您直接使用通知面板，因为其更方便快捷。
 
 ## 步骤 4：成功/失败后的事件动作
 

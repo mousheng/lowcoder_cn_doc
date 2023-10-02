@@ -1,16 +1,16 @@
-# 开发码匠插件
+# 开发Lowcoder插件
 
 ---
 
 * [https://majiang.co/docs/develop-plugins](https://majiang.co/docs/develop-plugins)
-* 开发码匠插件
+* 开发Lowcoder插件
 * 2023-10-02 23:32:41
 
 ---
 
-开发码匠插件
+开发Lowcoder插件
 
-通过码匠插件，您可以开发与码匠原生组件体验一致的自定义组件库。
+通过Lowcoder插件，您可以开发与Lowcoder原生组件体验一致的自定义组件库。
 
 ## 初始化开发环境
 
@@ -95,7 +95,7 @@ yarn build --publish
 
 ## 导入和使用插件
 
-打开一个码匠应用，在右侧面板 > **插入** > **扩展**中点击​**添加 npm 插件**​。
+打开一个Lowcoder应用，在右侧面板 > **插入** > **扩展**中点击​**添加 npm 插件**​。
 
 ​![](assets/3-20231002233242-8id912t.png)​
 

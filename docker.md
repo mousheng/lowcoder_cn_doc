@@ -1,6 +1,6 @@
 # Docker
 
-您可以选择使用 Docker-Compose  (推荐）或者 Docker 私有化部署码匠。
+您可以选择使用 Docker-Compose  (推荐）或者 Docker 私有化部署Lowcoder。
 
 ## 准备
 
@@ -12,7 +12,7 @@
 > * 服务器最低要求：2 核 CPU 和 4 GB RAM
 > * Windows 推荐使用 PowerShell 来执行以下命令
 
-创建一个名为 majiang 的目录，用于存放码匠实例数据。
+创建一个名为 majiang 的目录，用于存放Lowcoder实例数据。
 
 ```text
 mkdir majiang
@@ -59,13 +59,13 @@ docker-compose up -d
 docker logs -f majiang
 ```
 
-当看到`frontend、backend、redis、mongo entered RUNNING state`​时，码匠服务已经正式启动，如下图：
+当看到`frontend、backend、redis、mongo entered RUNNING state`​时，Lowcoder服务已经正式启动，如下图：
 
 ​![](assets/3-20231002181225-wlm8wy8.png)​
 
 #### 更新
 
-执行以下命令来更新码匠服务：
+执行以下命令来更新Lowcoder服务：
 
 ```text
 docker-compose pull
@@ -75,7 +75,7 @@ docker-compose up -d
 
 #### 部署
 
-执行以下命令来私有化部署码匠服务：
+执行以下命令来私有化部署Lowcoder服务：
 
 ```text
 docker run -d --name majiang -p 3000:3000 -v "$PWD/stacks:/majiang-stacks" iocmajiang/majiang
@@ -83,7 +83,7 @@ docker run -d --name majiang -p 3000:3000 -v "$PWD/stacks:/majiang-stacks" iocma
 
 #### 更新
 
-执行以下命令来更新码匠服务：
+执行以下命令来更新Lowcoder服务：
 
 ```text
 docker pull iocmajiang/majiang
@@ -99,4 +99,4 @@ docker run -d --name majiang -p 3000:3000 -v "$PWD/stacks:/majiang-stacks" iocma
 
 ## 常见问题
 
-* [在码匠镜像中，如何如何访问宿主机 API/DB？](https://majiang.co/docs/visit-host-api-or-db)
+* [在Lowcoder镜像中，如何如何访问宿主机 API/DB？](https://majiang.co/docs/visit-host-api-or-db)

@@ -6,7 +6,7 @@
 
 ## 创建聚合页
 
-管理员和开发者可以在码匠主页的右上角点击**新建** -> **聚合页**创建聚合页：
+管理员和开发者可以在Lowcoder主页的右上角点击**新建** -> **聚合页**创建聚合页：
 
 <figure><img src="../.gitbook/assets/n1-20230810212349-863leaj.png" alt=""><figcaption></figcaption></figure>
 

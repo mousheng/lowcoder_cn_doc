@@ -16,7 +16,7 @@ REST API 的默认**认证方式**为 None。其他可选项为 Basic 和 Digest
 
 ## 创建查询
 
-创建查询，选择您的 REST API 数据源，然后设置查询参数信息，即可点击​**运行**​。关于在码匠中使用 REST API 的详细教程，请参阅 [使用 REST API](https://majiang.co/docs/using-rest-api)。
+创建查询，选择您的 REST API 数据源，然后设置查询参数信息，即可点击​**运行**​。关于在Lowcoder中使用 REST API 的详细教程，请参阅 [使用 REST API](https://majiang.co/docs/using-rest-api)。
 
 ​![](assets/rest-api-3-20231002173307-zmsps7u.png)​
 

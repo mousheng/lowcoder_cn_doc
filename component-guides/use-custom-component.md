@@ -9,7 +9,7 @@
 
 ## 基本了解
 
-拖放一个自定义组件于画布上，码匠已经预填充了示例数据，这些示例代码演示如何在自定义组件中与应用的其他部分交互，您可以基于此进行修改或者将其删除后自己编写代码。
+拖放一个自定义组件于画布上，Lowcoder已经预填充了示例数据，这些示例代码演示如何在自定义组件中与应用的其他部分交互，您可以基于此进行修改或者将其删除后自己编写代码。
 
 > #### 💡 说明
 >
@@ -25,7 +25,7 @@
 
 ### 代码区域
 
-浏览**代码**区域，码匠定义了几个函数或者对象：`runQuery`、`model` 和 `updateModel`。
+浏览**代码**区域，Lowcoder定义了几个函数或者对象：`runQuery`、`model` 和 `updateModel`。
 
 <figure><img src="../../.gitbook/assets/custom-component-3.png" alt=""><figcaption></figcaption></figure>
 

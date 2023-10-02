@@ -2,7 +2,7 @@
 
 如何访问宿主机 API/DB
 
-使用 Docker 镜像在本地服务器部署码匠后，您可能需要码匠访问部署在同一台服务器（宿主机）的 API/DB 数据源。码匠镜像默认使用 [桥接 (Bridge) 模式](https://docs.docker.com/network/bridge/)，因此无法通过 `127.0.0.1`​/`localhost`​ 访问宿主机相关服务（只能请求到镜像内部网络）。本文以 MySQL 为例，介绍在不同系统环境下如何访问宿主机上的 API/DB。
+使用 Docker 镜像在本地服务器部署Lowcoder后，您可能需要Lowcoder访问部署在同一台服务器（宿主机）的 API/DB 数据源。Lowcoder镜像默认使用 [桥接 (Bridge) 模式](https://docs.docker.com/network/bridge/)，因此无法通过 `127.0.0.1`​/`localhost`​ 访问宿主机相关服务（只能请求到镜像内部网络）。本文以 MySQL 为例，介绍在不同系统环境下如何访问宿主机上的 API/DB。
 
 ## 准备
 
@@ -18,7 +18,7 @@
 
 Docker 服务启动时，系统会自动创建一个 docker0 的设备（默认 IP 地址为 `172.17.0.1`​），docker 服务可以通过该 IP 与宿主机进行通信。
 
-2. 使用上图红框中的 IP 地址（当前例子为 `172.17.0.1`​，具体根据您终端显示值而定），在码匠中配置 MySQL 数据源，如下所示：
+2. 使用上图红框中的 IP 地址（当前例子为 `172.17.0.1`​，具体根据您终端显示值而定），在Lowcoder中配置 MySQL 数据源，如下所示：
 
 **       **![linux host setting](assets/linux-host-setting-20231002181238-sj9uixb.jpg "linux host setting")[           ](https://majiang.co/static/f780f9b522481eac721f69cae2e0ecd2/5c1ad/linux-host-setting.jpg)
 
@@ -46,6 +46,6 @@ Docker 在 Windows 和 macOS 平台下并没有 docker0 虚拟网桥，此时可
 host.docker.internal
 ```
 
-码匠中配置 MySQL 数据源如下所示：
+Lowcoder中配置 MySQL 数据源如下所示：
 
 **       **![windows mac host setting](assets/windows-mac-host-setting-20231002181238-xv16c2z.jpg "windows mac host setting")[           ](https://majiang.co/static/747d1fbacfaadf2324503a832fbdb506/9e23d/windows-mac-host-setting.jpg)

@@ -36,7 +36,7 @@ description: a quick look at the app editor before you start
 
 ## 画布
 
-可视化应用将在画布中搭建，通过拖拽码匠提供的 UI 组件到画布中并进行组合，可搭建能实现您所需功能的应用。
+可视化应用将在画布中搭建，通过拖拽Lowcoder提供的 UI 组件到画布中并进行组合，可搭建能实现您所需功能的应用。
 
 <figure><img src="../.gitbook/assets/canvas.gif" alt=""><figcaption></figcaption></figure>
 

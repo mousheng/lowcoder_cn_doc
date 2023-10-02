@@ -2,7 +2,7 @@
 
 ​![](assets/1_1_7-20231002181401-nfbp5c7.png)​
 
-码匠支持连接多种类型的数据库，可通过以下文档了解如何连接各种数据库：
+Lowcoder支持连接多种类型的数据库，可通过以下文档了解如何连接各种数据库：
 
 |[连接 MySQL](https://majiang.co/docs/database/mysql)|[连接 MongoDB](https://majiang.co/docs/database/mongodb)|[连接 PostgreSQL](https://majiang.co/docs/database/postgresql)|[连接 Microsoft SQL server](https://majiang.co/docs/database/ms-SQL-server)|
 | --| --| --| --|
