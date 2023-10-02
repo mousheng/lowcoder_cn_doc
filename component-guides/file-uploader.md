@@ -4,7 +4,7 @@
 
 在画布右侧的属性面板，可以修改文件上传组件的基本设置，如组件文本、文件类型、上传类型等。
 
-<figure><img src="../../.gitbook/assets/1-20230810212131-oldi4f6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/1-20230810212131-oldi4f6.png" alt=""><figcaption></figcaption></figure>
 
 ### 文件类型
 
@@ -22,7 +22,7 @@
 
 点击展开下拉框，可选择上传 **单个文件** 、**多文件**或 **文件夹** 。
 
-<figure><img src="../../.gitbook/assets/2-20230810212131-7ybmpxl.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/2-20230810212131-7ybmpxl.png" alt=""><figcaption></figcaption></figure>
 
 ### 是否展示上传列表
 
@@ -30,19 +30,19 @@
 
 上传列表展示所有文件的 **名称** （可以通过组件的 `files[index].name` 属性访问），点击列表右侧 🗑️ 图标可以删除某一文件。
 
-<figure><img src="../../.gitbook/assets/3-20230810212131-0ibnftz.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/3-20230810212131-0ibnftz.png" alt=""><figcaption></figcaption></figure>
 
 ### 解析文件
 
 可点击开关进行切换，默认为**关闭**状态。如果开启 **解析文件** ，上传的所有文件会被解析为对象、数组或字符串，可以通过组件的 `parsedValue` 属性访问。目前支持解析 Excel、JSON、CSV 或文本文件，其他文件类型会返回 null。
 
-<figure><img src="../../.gitbook/assets/4-20230810212131-frr045w.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/4-20230810212131-frr045w.png" alt=""><figcaption></figcaption></figure>
 
 ## 校验设置
 
 校验设置用于检验用户上传的文件是否超过规定数量，或者文件大小超过限制等。
 
-<figure><img src="../../.gitbook/assets/5-20230810212131-ssuibhb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/5-20230810212131-ssuibhb.png" alt=""><figcaption></figcaption></figure>
 
 ### 文件最大上传数
 
@@ -54,7 +54,7 @@
 
 当预上传的文件大小不符合设定范围时，将会触发全局提示。
 
-<figure><img src="../../.gitbook/assets/6-20230810212131-rm8cz27.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/6-20230810212131-rm8cz27.png" alt=""><figcaption></figcaption></figure>
 
 ## 访问已上传文件
 
@@ -66,46 +66,46 @@
 * `files`：当前上传的文件信息列表，包含 `uid`、`name`、`type`、`size` 和 `lastModified`字段。
 * `parsedValue`：已解析的文件值列表。如果开启解析文件，上传文件会被解析为对象、数组或字符串。支持 Excel、JSON、CSV 或文本文件，其他类型会返回 null。
 
-<figure><img src="../../.gitbook/assets/7-20230810212131-tk5ccem.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/7-20230810212131-tk5ccem.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/8-20230810212131-zs14rji.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/8-20230810212131-zs14rji.png" alt=""><figcaption></figcaption></figure>
 
 ## 案例：上传图片至 Postman Echo API
 
 本案例通过调用 Postman [Echo API](https://learning.postman.com/docs/developer/echo-api/)，将图片文件上传至 API，并通过返回结果测试是否上传成功。
 
-<figure><img src="../../.gitbook/assets/9-20230810212131-0ystf1u.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/9-20230810212131-0ystf1u.gif" alt=""><figcaption></figcaption></figure>
 
 ### 单张上传
 
 1. 插入一个文件上传组件 `file1`，配置好文件类型和上传类型。
-    <figure><img src="../../.gitbook/assets/10-20230810212131-0686p6d.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../assets/10-20230810212131-0686p6d.png" alt=""><figcaption></figcaption></figure>
 2. 插入一个图片组件 `image1`，配置好图片地址 `data:image;base64,{{file1.value[0]}}`，用于预览暂存于浏览器的单张图片。
-    <figure><img src="../../.gitbook/assets/11-20230810212131-0tw1j9k.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../assets/11-20230810212131-0tw1j9k.png" alt=""><figcaption></figcaption></figure>
 3. 新建一个查询 `uploadSingle`，用于将单张图片上传至 Echo API，可以插入一个按钮，并将其单击事件绑定至该查询。选择 HTTP Method 为  **POST** ，然后将已编码的图片内容 `{{file1.value[0]}}` 和图片名称 `{{file1.files[0].name}}` 按照 `{ data: base64 string, name: string }` 的格式填写至请求主体 Body 中，如下图所示。
-    <figure><img src="../../.gitbook/assets/12-20230810212131-4s89kvh.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../assets/12-20230810212131-4s89kvh.png" alt=""><figcaption></figcaption></figure>
 4. 运行查询  `uploadSingle`，返回值如下图所示。新建一个文本组件，用于展示返回值中的文件名，可通过 `{{Object.keys(uploadSingle.data?.files?? [])[0]}}` 访问；新建一个图片组件，用于展示返回的图片文件，图片地址可通过 `{{Object.values(uploadSingle.data?.files ?? [])[0]}}` 访问。
-    <figure><img src="../../.gitbook/assets/13-20230810212131-niwr3nu.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../assets/13-20230810212131-niwr3nu.png" alt=""><figcaption></figcaption></figure>
 
 ### 多张上传
 
 上传多张图片时，需要向 Echo API 提交一个 Object 数组，其中每一项都需遵循 `{ data: base64 string, name: string }` 的格式。因此，可以新建一个转换器 `multipleFileArray`，将当前文件列表的 `value` 和 `files` 字段的值转换成所需格式，如下图所示。
 
-<figure><img src="../../.gitbook/assets/14-20230810212131-nbwnech.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/14-20230810212131-nbwnech.png" alt=""><figcaption></figcaption></figure>
 
 新建一个查询 `uploadMultiple`，用于将多张图片上传至 Echo API，这里可以直接填入 `multipleFileArray` 的返回值。
 
-<figure><img src="../../.gitbook/assets/15-20230810212131-e0j313k.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/15-20230810212131-e0j313k.png" alt=""><figcaption></figcaption></figure>
 
 然后运行该查询，返回结果如下图所示，其中包含了图片的文件名和 Base64 编码后的内容。
 
-<figure><img src="../../.gitbook/assets/16-20230810212131-unvmpih.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/16-20230810212131-unvmpih.png" alt=""><figcaption></figcaption></figure>
 
-插入一个[列表](./list-view.md)组件，用于展示查询的返回结果。
+插入一个[列表](./listView.md)组件，用于展示查询的返回结果。
 
 * 列表的行数可通过查询返回结果中 `files` 字段中的对象个数获得，即 `{{Object.keys(uploadMultiple.data?.files?? []).length}}`。
-  <figure><img src="../../.gitbook/assets/18-20230810212131-f2m0fxq.png" alt=""><figcaption></figcaption></figure>
+  <figure><img src="../assets/18-20230810212131-f2m0fxq.png" alt=""><figcaption></figcaption></figure>
 * 图片的文件名可通过 `{{Object.keys(uploadMultiple.data.files)[i]}}` 访问。
-  <figure><img src="../../.gitbook/assets/19-20230810212131-vf6cv84.png" alt=""><figcaption></figcaption></figure>
+  <figure><img src="../assets/19-20230810212131-vf6cv84.png" alt=""><figcaption></figcaption></figure>
 * 图片的内容可通过 `{{Object.values(uploadMultiple.data.files)[i]}}` 访问。
-  <figure><img src="../../.gitbook/assets/20-20230810212131-v5nzaub.png" alt=""><figcaption></figcaption></figure>
+  <figure><img src="../assets/20-20230810212131-v5nzaub.png" alt=""><figcaption></figcaption></figure>

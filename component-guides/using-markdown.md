@@ -6,11 +6,11 @@
 
 * **文本组件** ：**内容**可选择为 Markdown
 
-<figure><img src="../../.gitbook/assets/1-20230810212140-w4zdavd.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/1-20230810212140-w4zdavd.png" alt=""><figcaption></figcaption></figure>
 
 * **表格组件** ：**列类型**可设置为 Markdown
 
-<figure><img src="../../.gitbook/assets/2-20230810212140-4kf9oqf.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/2-20230810212140-4kf9oqf.png" alt=""><figcaption></figcaption></figure>
 
 Lowcoder支持所有 Markdown 的基本语法：
 
@@ -22,7 +22,7 @@ Lowcoder支持所有 Markdown 的基本语法：
 * 列表语法：要创建有序列表，请在每个列表项前添加数字并紧跟一个英文句点；要创建无序列表，请在每个列表项前面添加连字符 (`-`)、星号 (`*`) 或加号 (`+`) 。
 * 代码语法：要将单词或短语表示为代码，请将其包裹在反引号 (```) 中。
 * 分隔线语法：要创建分隔线，请在单独一行上使用三个或多个星号 (`***`)、连字符 (`---`) 或下划线 (`___`) ，并且不能包含其他内容。
-* 链接语法：链接文本放在中括号内，链接地址放在后面的括号中。例如：`[Lowcoder](``https://majiang.co``)`。
+* 链接语法：链接文本放在中括号内，链接地址放在后面的括号中。例如：`[Lowcoder](``https://lowcoder.mousheng.top``)`。
 * 图片语法：要添加图像，请使用感叹号 (`!`)， 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。
 * 转义字符语法：要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 (`\`)。
 

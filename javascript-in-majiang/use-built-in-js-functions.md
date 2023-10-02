@@ -28,7 +28,7 @@ utils.openApp( applicationId: string, options?: { queryParams?: {'key':'value'},
 | **参数** | **说明** | **是否必填** |
 | --- | --- | --- |
 | `applicationId` | 字符串类型，Lowcoder应用 id（如图）
-<figure><img src="../../.gitbook/assets/b1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/b1.png" alt=""><figcaption></figcaption></figure>
 
  | 是 |
 | `queryParams: {'key1': 'value1', key2: 'value2', ...}` | 查询参数，以 `?key1=value1&key2=value2&...` 追加到应用 URL 后 | 否 |
@@ -113,7 +113,7 @@ message.warn("警告", { duration: 10 })
 message.error("查询执行失败", { duration: 10 })
 ```
 
-<figure><img src="../../.gitbook/assets/b2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/b2.png" alt=""><figcaption></figcaption></figure>
 
 ## localStorage（本地存储）
 
@@ -130,13 +130,13 @@ localStorage 将键值对数据存储到本地，不随着应用的刷新重置�
 
 暴露存储数据。在 Javascript 查询中输入 `localStorage.values.`，会暴露其所有的数据：
 
-<figure><img src="../../.gitbook/assets/b3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/b3.png" alt=""><figcaption></figcaption></figure>
 
 ### 访问 localStorage 中的数据
 
 在左侧数据浏览器下方的全局变量中可以查看 localStorage 中的数据：
 
-<figure><img src="../../.gitbook/assets/localstorage.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/localstorage.png" alt=""><figcaption></figcaption></figure>
 
 ### localStorage.setItem(key: string, value: any)
 
@@ -146,7 +146,7 @@ localStorage 将键值对数据存储到本地，不随着应用的刷新重置�
 localStorage.setItem("order", select1.value)
 ```
 
-<figure><img src="../../.gitbook/assets/b4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/b4.png" alt=""><figcaption></figcaption></figure>
 
 ### localStorage.removeItem(key: string)
 

@@ -15,23 +15,23 @@
 >
 > 点击自定义组件的**边框**选中组件，以显示自定义组件的属性面板（点击组件内部无法选中组件）。
 
-<figure><img src="../../.gitbook/assets/custom-component-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/custom-component-1.png" alt=""><figcaption></figcaption></figure>
 
 ### 数据区域
 
 **数据**区域是自定义组件与外部进行数据交互的接口，通过定义一些键值对来让应用引用自定义组件的内部数据或者从应用传递数据到自定义组件。
 
-<figure><img src="../../.gitbook/assets/custom-component-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/custom-component-2.png" alt=""><figcaption></figcaption></figure>
 
 ### 代码区域
 
 浏览**代码**区域，Lowcoder定义了几个函数或者对象：`runQuery`、`model` 和 `updateModel`。
 
-<figure><img src="../../.gitbook/assets/custom-component-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/custom-component-3.png" alt=""><figcaption></figcaption></figure>
 
 * `model` 是一个对象，它以键值对的形式定义了应用和自定义组件之间传递的变量数据。**数据区域**中定义的就是 `model`，如下图，可以使用 `model.name`、`model.text` 引用具体值。
 
-<figure><img src="../../.gitbook/assets/14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/14.png" alt=""><figcaption></figcaption></figure>
 
 * `runQuery` 是一个函数，接受一个字符串类型的参数，该参数是现有查询的名称，如：`runQuery(model.query)`。
 * `updateModel`是一个接受单个对象类型参数的函数，传递给 `updateModel` 的参数将与自定义组件的**数据**合并。
@@ -81,7 +81,7 @@ interface IDataPayload {
 
 **场景** ：希望一个文本输入组件显示一个自定义组件中的某个值。如下图，`custom1.model.name` 可以引用自定义组件的 `name` 值，`input1` 组件的默认值设为`custom1.model.name` 即可显示此值：
 
-<figure><img src="../../.gitbook/assets/custom-component-5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/custom-component-5.png" alt=""><figcaption></figcaption></figure>
 
 代码：
 
@@ -123,17 +123,17 @@ interface IDataPayload {
 
  **场景** ：希望一个文本输入组件显示一个自定义组件中的某个值。如下图，`custom1.model.name` 可以引用自定义组件的 `name` 值，`input1` 组件的默认值设为`custom1.model.name` 即可显示此值：
 
-<figure><img src="../../.gitbook/assets/custom-component-6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/custom-component-6.png" alt=""><figcaption></figcaption></figure>
 
 ### 从自定义组件触发查询
 
  **场景** ：假设您想基于在自定义组件中输入的内容触发一个查询，从而查询 **users 表**中的所有数据。默认情况下，表格会显示查询返回的所有用户。
 
-<figure><img src="../../.gitbook/assets/custom-component-7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/custom-component-7.png" alt=""><figcaption></figcaption></figure>
 
 在自定义组件中我们实现了一个输入框和一个搜索按钮，当在输入框中输入一些文本，然后点击**搜索**按钮后，表格中会只展示用户邮箱匹配输入框内容的用户。
 
-<figure><img src="../../.gitbook/assets/custom-component-8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/custom-component-8.png" alt=""><figcaption></figcaption></figure>
 
 **实现步骤：**
 

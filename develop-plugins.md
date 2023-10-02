@@ -1,15 +1,5 @@
 # 开发Lowcoder插件
 
----
-
-* [./develop-plugins](./develop-plugins)
-* 开发Lowcoder插件
-* 2023-10-02 23:32:41
-
----
-
-开发Lowcoder插件
-
 通过Lowcoder插件，您可以开发与Lowcoder原生组件体验一致的自定义组件库。
 
 ## 初始化开发环境

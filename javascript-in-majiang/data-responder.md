@@ -4,7 +4,7 @@
 
 搭建应用时，为了监听某些数据的变化，我们可以为组件设置事件，例如：表格中 `selectedRow` 属性的变化对应「选择行改变」事件、`filter` 的变化对应「筛选改变」事件、`sort` 的变化对应「排序改变」事件；输入框内容 `value` 的变化对应「内容改变」事件等等。
 
-然而在更多情况下，一些**数据变化**却没有类似的内置事件来监听，例如临时状态、转换器、查询结果等值的变化。此时，就可以创建 **数据变化响应器** （下简称 **响应器** ），监听任意 **数据变化 (dataChange)** ，并为其设置[响应动作](../event-handlers.md)。
+然而在更多情况下，一些**数据变化**却没有类似的内置事件来监听，例如临时状态、转换器、查询结果等值的变化。此时，就可以创建 **数据变化响应器** （下简称 **响应器** ），监听任意 **数据变化 (dataChange)** ，并为其设置[响应动作](../event-handler.md)。
 
 > ### 💡 说明
 >
@@ -15,13 +15,13 @@
 
 在应用编辑界面下方的查询编辑器中，点击 **+ 新建** -> **数据变化响应器**即可创建。
 
-<figure><img src="../../.gitbook/assets/1-20230810212003-rrtnfug.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/1-20230810212003-rrtnfug.png" alt=""><figcaption></figcaption></figure>
 
 创建完成后，可以设置该响应器所依赖的数据，以及数据变化 (dataChange) 后的响应动作。
 
 如下图，响应器 `dataResonder1` 监听文本组件 `text1` 中文本内容的变化，并在发生变化时触发全局提示。
 
-<figure><img src="../../.gitbook/assets/2-20230810212004-urgasg1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/2-20230810212004-urgasg1.png" alt=""><figcaption></figcaption></figure>
 
 ## 响应多项数据的变化
 
@@ -29,8 +29,8 @@
 
 如下图，响应器 `multiValuesChange` 所依赖的数据为一个 JS 对象 (Object)，同时监听表单中四个输入项，并在任意输入项发生变化时，触发相同的全局提示。
 
-<figure><img src="../../.gitbook/assets/3-20230810212004-9kld4zh.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/3-20230810212004-9kld4zh.png" alt=""><figcaption></figcaption></figure>
 
 ## 事件动作
 
-详情可参阅文档：事件 -> [事件动作设置](../event-handlers.md)。
+详情可参阅文档：事件 -> [事件动作设置](../event-handler.md)。

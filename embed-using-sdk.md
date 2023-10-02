@@ -1,15 +1,5 @@
 # 使用 SDK 嵌入Lowcoder应用
 
----
-
-* [./embed-using-sdk](./embed-using-sdk)
-* 使用 SDK 嵌入Lowcoder应用
-* 2023-10-02 23:32:50
-
----
-
-使用 SDK 嵌入Lowcoder应用
-
 通过使用 SDK，您可以在已有系统中嵌入Lowcoder应用或模块。
 
 ## 安装
