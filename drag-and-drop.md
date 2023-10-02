@@ -14,7 +14,7 @@
 
 ## 使用容器进行整理
 
-组件可以放置在[容器组件](https://majiang.co/docs/component-guides/using-container)中。在实际使用中，可以将服务于相同业务流程的表格、输入框、按钮等其他所有组件包含在布局组件中里面，如下图所示：
+组件可以放置在[容器组件](./component-guides/using-container)中。在实际使用中，可以将服务于相同业务流程的表格、输入框、按钮等其他所有组件包含在布局组件中里面，如下图所示：
 
 ![](../assets/7-20231002193415-wibc1nl.gif)​
 

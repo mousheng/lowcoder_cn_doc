@@ -16,7 +16,7 @@ Lowcoder中所有组件的属性面板都有样式一栏，通过修改默认的
 
 ![](../assets/3-20231002181022-ixfrq9y.png)​
 
-也可以在输入框中使用 `{{}}`​ 写 [JavaScript 表达式](https://majiang.co/docs/javascript-in-majiang/writing-javascript)，使组件样式根据不同条件动态变化。
+也可以在输入框中使用 `{{}}`​ 写 [JavaScript 表达式](../javascript-in-majiang/writing-javascript)，使组件样式根据不同条件动态变化。
 
 ![](../assets/n1-20231002181022-cu9arho.gif)​
 
@@ -54,7 +54,7 @@ Lowcoder中所有组件的属性面板都有样式一栏，通过修改默认的
 
 ### 动态切换主题
 
-**开发者**在编辑应用时，可以[使用 JavaScript](https://majiang.co/docs/javascript-in-majiang) 引用全局变量 `theme`​ 和调用其内置方法 `theme.switchTo()`​，使**终端用户**在使用该应用时可以主动切换用户本地的主题。
+**开发者**在编辑应用时，可以[使用 JavaScript](../javascript-in-majiang) 引用全局变量 `theme`​ 和调用其内置方法 `theme.switchTo()`​，使**终端用户**在使用该应用时可以主动切换用户本地的主题。
 
 全局变量 `theme`​ 包含三个字段，可在左侧数据浏览器下方查看：
 
@@ -63,13 +63,13 @@ Lowcoder中所有组件的属性面板都有样式一栏，通过修改默认的
 * ​`id`​ 和 `name`​ 均为字符串，分别表示当前主题的 **ID** 和​**名称**​。值为空时，表示使用Lowcoder默认主题。
 * ​`allThemes`​ 为一个数组，包含当前企业**所有已创建主题**的 ID 和名称信息。
 
-​`theme.switchTo()`​ 方法用于动态切换用户本地的主题，所需参数为主题的 ​**ID**​。当传入参数为**空字符串**​`""`​ 时，则重置为当前应用[预设主题](https://majiang.co/docs/style#%E9%A2%84%E8%AE%BE%E4%B8%BB%E9%A2%98)。
+​`theme.switchTo()`​ 方法用于动态切换用户本地的主题，所需参数为主题的 ​**ID**​。当传入参数为**空字符串**​`""`​ 时，则重置为当前应用[预设主题](../style#%E9%A2%84%E8%AE%BE%E4%B8%BB%E9%A2%98)。
 
 > ### 💡 说明
 >
-> 终端用户在应用中切换主题后，`theme_id`​ 将保存在浏览器的本地存储 (Local Storage) 中。新主题将覆盖开发者为应用静态配置的[预设主题](https://majiang.co/docs/style#%E9%A2%84%E8%AE%BE%E4%B8%BB%E9%A2%98)，且对当前浏览器环境下的所有应用生效。
+> 终端用户在应用中切换主题后，`theme_id`​ 将保存在浏览器的本地存储 (Local Storage) 中。新主题将覆盖开发者为应用静态配置的[预设主题](../style#%E9%A2%84%E8%AE%BE%E4%B8%BB%E9%A2%98)，且对当前浏览器环境下的所有应用生效。
 
-配合[选项列表配置](https://majiang.co/docs/component-guides/option-list)和[事件动作设置](https://majiang.co/docs/event-handler#%E4%BA%8B%E4%BB%B6%E5%8A%A8%E4%BD%9C%E8%AE%BE%E7%BD%AE)，可使终端用户在使用过程中主动切换应用主题，效果如下图所示，也可直接点击 [demo](https://cloud.majiang.co/apps/63f8579439329f691001c991/view) 链接查看和试用。
+配合[选项列表配置](../component-guides/option-list)和[事件动作设置](../event-handler#%E4%BA%8B%E4%BB%B6%E5%8A%A8%E4%BD%9C%E8%AE%BE%E7%BD%AE)，可使终端用户在使用过程中主动切换应用主题，效果如下图所示，也可直接点击 [demo](https://cloud.majiang.co/apps/63f8579439329f691001c991/view) 链接查看和试用。
 
 ![](../assets/n7-20231002181022-wq4o0if.gif)​
 
@@ -88,10 +88,10 @@ Lowcoder中所有组件的属性面板都有样式一栏，通过修改默认的
 
 ## 自定义 CSS
 
-当[应用主题](https://majiang.co/docs/style#%E5%BA%94%E7%94%A8%E4%B8%BB%E9%A2%98)和[组件样式](https://majiang.co/docs/style#%E7%BB%84%E4%BB%B6%E6%A0%B7%E5%BC%8F)属性配置都无法满足样式定制的需求时，可以使用自定义 CSS 的功能。
+当[应用主题](../style#%E5%BA%94%E7%94%A8%E4%B8%BB%E9%A2%98)和[组件样式](../style#%E7%BB%84%E4%BB%B6%E6%A0%B7%E5%BC%8F)属性配置都无法满足样式定制的需求时，可以使用自定义 CSS 的功能。
 
-* 关于使用自定义 CSS 的 demo 展示，请参阅文档[自定义 CSS 使用样例](https://majiang.co/docs/style/css-demo)。
-* 关于编写 CSS 代码的注意事项，请参阅文档[自定义 CSS 注意事项](https://majiang.co/docs/style/css-manual)。
+* 关于使用自定义 CSS 的 demo 展示，请参阅文档[自定义 CSS 使用样例](../style/css-demo)。
+* 关于编写 CSS 代码的注意事项，请参阅文档[自定义 CSS 注意事项](../style/css-manual)。
 
 ### 应用级 CSS
 
@@ -156,9 +156,9 @@ Lowcoder中所有组件的属性面板都有样式一栏，通过修改默认的
 
 设置全局提示有三种方法：
 
-1. 设置事件的响应动作——全局提示。详情请参阅[事件](https://majiang.co/docs/event-handler#%E5%85%A8%E5%B1%80%E6%8F%90%E7%A4%BA)文档。
-2. Javascript 查询中，使用内置函数设置全局提示。详情请参阅[message（全局提示）](https://majiang.co/docs/javascript-in-majiang/use-built-in-js-functions#message%EF%BC%88%E5%85%A8%E5%B1%80%E6%8F%90%E7%A4%BA%EF%BC%89)。
-3. 使用查询的通知面板。详情请参阅[查询](https://majiang.co/docs/how-to-write-query#%E9%80%9A%E7%9F%A5%E9%9D%A2%E6%9D%BF)。
+1. 设置事件的响应动作——全局提示。详情请参阅[事件](../event-handler#%E5%85%A8%E5%B1%80%E6%8F%90%E7%A4%BA)文档。
+2. Javascript 查询中，使用内置函数设置全局提示。详情请参阅[message（全局提示）](../javascript-in-majiang/use-built-in-js-functions#message%EF%BC%88%E5%85%A8%E5%B1%80%E6%8F%90%E7%A4%BA%EF%BC%89)。
+3. 使用查询的通知面板。详情请参阅[查询](../how-to-write-query#%E9%80%9A%E7%9F%A5%E9%9D%A2%E6%9D%BF)。
 
 例如：在查询的**通知面板**中，可以勾选​**执行查询失败后通知**​，您可以设置失败的判定条件和提示文案：
 
@@ -182,4 +182,4 @@ Lowcoder中所有组件的属性面板都有样式一栏，通过修改默认的
 
 ### 表单设计技巧
 
-表单是信息添加、录入的通用形式，合理的表单设计能减轻用户负担，提升使用效率。关于在Lowcoder中设计表单的技巧，详情请参阅文档[表单设计技巧](https://majiang.co/docs/style/form-desgin)。
+表单是信息添加、录入的通用形式，合理的表单设计能减轻用户负担，提升使用效率。关于在Lowcoder中设计表单的技巧，详情请参阅文档[表单设计技巧](../style/form-desgin)。

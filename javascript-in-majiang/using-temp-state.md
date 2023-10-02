@@ -16,7 +16,7 @@
 
 ## 修改临时状态
 
-临时状态提供 setValue/setIn 方法修改值，这些方法可以在[ JavaScript 查询](https://majiang.co/docs/javascript-in-majiang/javascript-query)中调用，也可以在**事件触发-&gt;设置临时状态**时选择。
+临时状态提供 setValue/setIn 方法修改值，这些方法可以在[ JavaScript 查询](../javascript-in-majiang/javascript-query)中调用，也可以在**事件触发-&gt;设置临时状态**时选择。
 
 1. ​`setValue`​——设置临时状态的值。
 
@@ -108,7 +108,7 @@ select * from new_movie_list limit {{offset.value}}, 5
 
 ![](../assets/10-20231002175910-utpiwsv.png)​
 
-将查询的数据分别绑定到列表中的各个组件上（请参考[使用列表组件](https://majiang.co/docs/listView)文档），如列表的图片组件就绑定了`{{movie_list.data[i].movie_cover}}`​：
+将查询的数据分别绑定到列表中的各个组件上（请参考[使用列表组件](../listView)文档），如列表的图片组件就绑定了`{{movie_list.data[i].movie_cover}}`​：
 
 ![](../assets/11-20231002175910-z2mhuvj.png)​
 

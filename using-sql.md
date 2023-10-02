@@ -69,7 +69,7 @@ select * from orders where date = {{date1.value}} order by amount
 
 ### 动态排序
 
-Lowcoder默认开启 [PreparedStatement](https://majiang.co/docs/using-sql#%E4%BD%BF%E7%94%A8%E9%A2%84%E7%BC%96%E8%AF%91(preparedstatement)%E9%98%B2%E6%AD%A2sql%E6%B3%A8%E5%85%A5)，因此不能使用这样的写法进行 **order by** 拼接：
+Lowcoder默认开启 [PreparedStatement](./using-sql#%E4%BD%BF%E7%94%A8%E9%A2%84%E7%BC%96%E8%AF%91(preparedstatement)%E9%98%B2%E6%AD%A2sql%E6%B3%A8%E5%85%A5)，因此不能使用这样的写法进行 **order by** 拼接：
 
 ```sql
 -- ❌ 不支持这种写法：
@@ -101,7 +101,7 @@ select * from users where id in ({{ids}});
 
 ### 服务端分页
 
-当数据库表行数较多，可以结合**表格**组件的 `pageOffset`​、`pageSize`​ 属性实现服务端分页，详情可参考表格组件的[服务端分页](https://majiang.co/docs/component-guides/using-table#%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%88%86%E9%A1%B5)。
+当数据库表行数较多，可以结合**表格**组件的 `pageOffset`​、`pageSize`​ 属性实现服务端分页，详情可参考表格组件的[服务端分页](./component-guides/using-table#%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%88%86%E9%A1%B5)。
 
 ## 写请求（增/删/改）
 
@@ -167,7 +167,7 @@ Lowcoder支持通过 GUI 模式编写查询（目前支持 MySQL 数据源）。
 
 ![](assets/4-20231002173502-j1qzhus.png)​
 
-**对象**本身也是键值对结构，所以原理上与键值对逻辑保持一致。下图展示了[结合表单 (Form) 组件](https://majiang.co/docs/using-form#%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4)，可以轻松实现对象数据的传入：
+**对象**本身也是键值对结构，所以原理上与键值对逻辑保持一致。下图展示了[结合表单 (Form) 组件](./using-form#%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4)，可以轻松实现对象数据的传入：
 
 ![](assets/5-20231002173502-vjk8jdi.png)​
 

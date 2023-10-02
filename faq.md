@@ -10,13 +10,13 @@ Lowcoder不但可以基于数据库和 API 快速创建企业内部的轻量级�
 
 ## 为什么我在Lowcoder只能搭建单个页面的应用？
 
-您的单页面应用可通过Lowcoder的[聚合页](https://majiang.co/docs/left-navigation)功能，组合成侧边栏等形式，以形成复杂、完整的应用系统。具体功能，可根据相关文档轻松实现。
+您的单页面应用可通过Lowcoder的[聚合页](./left-navigation)功能，组合成侧边栏等形式，以形成复杂、完整的应用系统。具体功能，可根据相关文档轻松实现。
 
 ## 是否支持我需要的数据库、API 等数据源？
 
 Lowcoder倡导连接一切，目前支持如下：
 
-MySQL、REST API、MongoDB、PostgreSQL、Microsoft SQL server、Redis、Elasticsearch、Oracle、飞书、企业微信、钉钉、阿里云、SMTP、ClickHouse、维格表、简道云等（查看所有已支持[数据库](https://majiang.co/docs/database)和第三方 [API](https://majiang.co/docs/api)）。
+MySQL、REST API、MongoDB、PostgreSQL、Microsoft SQL server、Redis、Elasticsearch、Oracle、飞书、企业微信、钉钉、阿里云、SMTP、ClickHouse、维格表、简道云等（查看所有已支持[数据库](./database)和第三方 [API](./api)）。
 
 如果您需要的数据库不在其中，可与客服反馈，我们可以快速对接。
 

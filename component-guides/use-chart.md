@@ -7,7 +7,7 @@
 
 ### 数据格式
 
-UI 模式下，图表组件支持的**数据**格式与[表格组件](https://majiang.co/docs/component-guides/using-table)相同，即一个由 JavaScript 对象组成的 **数组** ，其中每一项的不同字段对应不同的表格列。下面的例子包含了 `date`、`fruit` 和 `count` 三列数据。
+UI 模式下，图表组件支持的**数据**格式与[表格组件](../component-guides/using-table)相同，即一个由 JavaScript 对象组成的 **数组** ，其中每一项的不同字段对应不同的表格列。下面的例子包含了 `date`、`fruit` 和 `count` 三列数据。
 
 ```json
 [

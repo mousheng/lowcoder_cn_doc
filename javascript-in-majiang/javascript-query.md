@@ -1,6 +1,6 @@
 # JavaScript 查询
 
-在Lowcoder中构建应用时，相较于在 `{{ }}`​ 内编写 [JavaScript 表达式](https://majiang.co/docs/javascript-in-majiang/writing-javascript)，通过 JavaScript 查询功能可以编写和运行更加复杂的 JavaScript 代码。这里的 JavaScript 代码支持的功能包括：
+在Lowcoder中构建应用时，相较于在 `{{ }}`​ 内编写 [JavaScript 表达式](../javascript-in-majiang/writing-javascript)，通过 JavaScript 查询功能可以编写和运行更加复杂的 JavaScript 代码。这里的 JavaScript 代码支持的功能包括：
 
 * 调用库函数
 * 编写自定义函数并引用其返回值
@@ -99,7 +99,7 @@ JavaScript 查询中可以访问页面任意组件和查询的数据，例如：
 var data = [input1.value, query1.data, fileUpload.files[0].name];
 ```
 
-具体参考 [JavaScript 表达式](https://majiang.co/docs/javascript-in-majiang/writing-javascript)文档。
+具体参考 [JavaScript 表达式](../javascript-in-majiang/writing-javascript)文档。
 
 ### 调用组件方法
 

@@ -8,7 +8,7 @@
 
 ## 准备
 
-正式开始前，您需要获取 StarRocks 数据库的连接配置，并参考[IP 白名单](https://majiang.co/docs/ip-allowlist)文档将Lowcoder的 IP 地址添加到数据库网络的**白名单**中（按需配置）。
+正式开始前，您需要获取 StarRocks 数据库的连接配置，并参考[IP 白名单](../ip-allowlist)文档将Lowcoder的 IP 地址添加到数据库网络的**白名单**中（按需配置）。
 
 ## 新建数据源
 
@@ -18,10 +18,10 @@
 
 ## 创建查询
 
-在应用编辑页面，点击**新建**创建查询，选择您的 StarRocks 数据源，然后编写 SQL 查询语句。Lowcoder中支持 **SQL 模式**和 **GUI模式**​，让您能够更加灵活便捷地操作数据。关于在Lowcoder中使用 SQL 的详细教程，可参阅文档[使用 SQL](https://majiang.co/docs/using-sql)。
+在应用编辑页面，点击**新建**创建查询，选择您的 StarRocks 数据源，然后编写 SQL 查询语句。Lowcoder中支持 **SQL 模式**和 **GUI模式**​，让您能够更加灵活便捷地操作数据。关于在Lowcoder中使用 SQL 的详细教程，可参阅文档[使用 SQL](../using-sql)。
 
 ![](../assets/3-20231002173025-qts5wlt.png)​
 
-编写完成后，点击**运行**可查看查询的执行结果。如果将运行结果与Lowcoder中[组件](https://majiang.co/docs/component-guides)的数据字段绑定，就能使数据可视化。
+编写完成后，点击**运行**可查看查询的执行结果。如果将运行结果与Lowcoder中[组件](../component-guides)的数据字段绑定，就能使数据可视化。
 
 ![](../assets/4-20231002173025-vqf366v.png)​

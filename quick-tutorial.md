@@ -18,7 +18,7 @@
 
 ## 使用组件
 
-进入[编辑页面](https://majiang.co/docs/editor-interface)后，使用组件以搭建应用。
+进入[编辑页面](./editor-interface)后，使用组件以搭建应用。
 
 1. 在页面右侧，Lowcoder为您提供了一系列功能丰富的组件。这里选择常用组件中的**文本**组件，并拖拽到页面中央的画布上。
 2. 点击位于画布上的组件，右侧将自动展示该组件的属性，用于输入​**内容**​、调整**样式**等。
@@ -28,9 +28,9 @@
 
 ## 构建查询
 
-连接 SQL 类数据源，编写 SQL 查询语句以[构建查询](https://majiang.co/docs/how-to-write-query)。
+连接 SQL 类数据源，编写 SQL 查询语句以[构建查询](./how-to-write-query)。
 
-1. 在页面下方的查询编辑器中，可以编写 MySQL、PostgreSQL、MongoDB、REST API 等多种数据源的查询语句。Lowcoder为您预先创建了​**示例数据源**​，并填充了一些演示数据；此外，您可以[新建数据源](https://majiang.co/docs/datasource#%E6%96%B0%E5%BB%BA%E6%95%B0%E6%8D%AE%E6%BA%90)并基于其创建查询，也可以在编辑器中的**选择数据源**下拉菜单中切换数据源。
+1. 在页面下方的查询编辑器中，可以编写 MySQL、PostgreSQL、MongoDB、REST API 等多种数据源的查询语句。Lowcoder为您预先创建了​**示例数据源**​，并填充了一些演示数据；此外，您可以[新建数据源](./datasource#%E6%96%B0%E5%BB%BA%E6%95%B0%E6%8D%AE%E6%BA%90)并基于其创建查询，也可以在编辑器中的**选择数据源**下拉菜单中切换数据源。
 2. 使用 MySQL 示例数据源**新建**一个查询，并改名 `getUsers`​：
 
 ![](assets/3-20231002133807-9u73yo3.png)​
@@ -41,7 +41,7 @@
 
 ## 展示查询结果
 
-将[表格组件](https://majiang.co/docs/component-guides/using-table)的数据属性与查询结果绑定，展示返回的内容。
+将[表格组件](./component-guides/using-table)的数据属性与查询结果绑定，展示返回的内容。
 
 1. 插入一个**表格**组件 `table1`​ 并置于文本组件**用户表**下方，表格默认包含了一些预填充的数据。
 2. 为了展示上述查询结果，需要将表格的**数据**属性与 `{{getUsers.data}}`​ 进行绑定。这里表格自动绑定了刚刚执行的 `getUsers`​ 的结果，后续 `{{getUsers.data}}`​ 发生变化时，表格中展示的内容也会同步更新。
@@ -116,7 +116,7 @@ where user_id = {{table1.selectedRow.id}}
 
 ![](assets/13-20231002133807-rp7ncbn.png)​
 
-2. 新建一个查询 `updateOrderStatus`​，输入以下 SQL 更新语句，此时系统会自动将该查询的触发方式调整为​**手动触发执行**​（该 SQL 语句为写请求，对于写请求，触发方式默认为手动触发执行，可以参阅[使用 SQL](https://majiang.co/docs/using-sql) 文档）：
+2. 新建一个查询 `updateOrderStatus`​，输入以下 SQL 更新语句，此时系统会自动将该查询的触发方式调整为​**手动触发执行**​（该 SQL 语句为写请求，对于写请求，触发方式默认为手动触发执行，可以参阅[使用 SQL](./using-sql) 文档）：
 
 ```sql
 update orders
@@ -126,7 +126,7 @@ where id = {{table2.selectedRow.id}}
 
 ![](assets/14-20231002133807-zaebcba.png)​
 
-3. 更新语句 `updateOrderStatus`​ 执行成功后，当前用户的订单表也要随之更新，所以还需要绑定成功后的回调事件。这里为 `updateOrderStatus`​ 新建一个[事件触发](https://majiang.co/docs/event-handler)，选择成功后执行查询 `getUserOrders`​。
+3. 更新语句 `updateOrderStatus`​ 执行成功后，当前用户的订单表也要随之更新，所以还需要绑定成功后的回调事件。这里为 `updateOrderStatus`​ 新建一个[事件触发](./event-handler)，选择成功后执行查询 `getUserOrders`​。
 
 ![](assets/15-20231002133807-bu91o3v.png)​
 

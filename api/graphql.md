@@ -2,7 +2,7 @@
 
 ## 新建数据源
 
-​**新建数据源 -&gt; GraphQL**​，与[连接 REST API](https://majiang.co/docs/api/rest-api) 类似，数据源中可配置查询所公用的参数：如 URL 前缀、Headers 和 Parameters，之后可基于该数据源创建查询。
+​**新建数据源 -&gt; GraphQL**​，与[连接 REST API](../api/rest-api) 类似，数据源中可配置查询所公用的参数：如 URL 前缀、Headers 和 Parameters，之后可基于该数据源创建查询。
 
 ![](../assets/1-20231002173318-agw9cjq.png)​
 

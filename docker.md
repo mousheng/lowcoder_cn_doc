@@ -99,4 +99,4 @@ docker run -d --name majiang -p 3000:3000 -v "$PWD/stacks:/majiang-stacks" iocma
 
 ## 常见问题
 
-* [在Lowcoder镜像中，如何如何访问宿主机 API/DB？](https://majiang.co/docs/visit-host-api-or-db)
+* [在Lowcoder镜像中，如何如何访问宿主机 API/DB？](./visit-host-api-or-db)

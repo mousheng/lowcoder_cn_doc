@@ -8,7 +8,7 @@
 
 ## 准备
 
-正式开始前，您需要获取 DynamoDB 数据库的连接配置，并参考[IP 白名单](https://majiang.co/docs/ip-allowlist)文档将Lowcoder的 IP 地址添加到数据库网络的**白名单**中（按需配置）。
+正式开始前，您需要获取 DynamoDB 数据库的连接配置，并参考[IP 白名单](../ip-allowlist)文档将Lowcoder的 IP 地址添加到数据库网络的**白名单**中（按需配置）。
 
 ## 新建数据源
 
@@ -22,6 +22,6 @@
 
 ![](../assets/3-20231002173029-redcdhf.png)​
 
-编写完成后，点击**运行**可查看查询的执行结果。如果将运行结果与Lowcoder中[组件](https://majiang.co/docs/component-guides)的数据字段绑定，就能使数据可视化。
+编写完成后，点击**运行**可查看查询的执行结果。如果将运行结果与Lowcoder中[组件](../component-guides)的数据字段绑定，就能使数据可视化。
 
 ![](../assets/4-20231002173029-hmkfz3d.png)​

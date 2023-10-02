@@ -2,7 +2,7 @@
 
 ---
 
-* [https://majiang.co/docs/embed-using-sdk](https://majiang.co/docs/embed-using-sdk)
+* [./embed-using-sdk](./embed-using-sdk)
 * 使用 SDK 嵌入Lowcoder应用
 * 2023-10-02 23:32:50
 

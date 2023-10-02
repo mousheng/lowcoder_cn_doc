@@ -2,7 +2,7 @@
 
 ---
 
-* [https://majiang.co/docs/develop-plugins](https://majiang.co/docs/develop-plugins)
+* [./develop-plugins](./develop-plugins)
 * 开发Lowcoder插件
 * 2023-10-02 23:32:41
 

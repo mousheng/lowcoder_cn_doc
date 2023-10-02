@@ -1,9 +1,9 @@
 # 自定义 CSS 使用样例
 
-本文档展示了在Lowcoder中通过编写[自定义 CSS](https://majiang.co/docs/style#%E8%87%AA%E5%AE%9A%E4%B9%89css) 代码实现丰富样式的若干 ​**demo**​。
+本文档展示了在Lowcoder中通过编写[自定义 CSS](../style#%E8%87%AA%E5%AE%9A%E4%B9%89css) 代码实现丰富样式的若干 ​**demo**​。
 
-* 如需为**单个应用**添加自定义 CSS，请参阅[应用级 CSS](https://majiang.co/docs/style#%E5%BA%94%E7%94%A8%E7%BA%A7css)；
-* 如需为当前企业下**所有应用**设置预加载 CSS，请参阅[预加载 CSS](https://majiang.co/docs/style#%E9%A2%84%E5%8A%A0%E8%BD%BDcss)。
+* 如需为**单个应用**添加自定义 CSS，请参阅[应用级 CSS](../style#%E5%BA%94%E7%94%A8%E7%BA%A7css)；
+* 如需为当前企业下**所有应用**设置预加载 CSS，请参阅[预加载 CSS](../style#%E9%A2%84%E5%8A%A0%E8%BD%BDcss)。
 
 ## 自定义 Markdown 字体
 

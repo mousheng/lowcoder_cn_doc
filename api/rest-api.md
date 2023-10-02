@@ -16,10 +16,10 @@ REST API 的默认**认证方式**为 None。其他可选项为 Basic 和 Digest
 
 ## 创建查询
 
-创建查询，选择您的 REST API 数据源，然后设置查询参数信息，即可点击​**运行**​。关于在Lowcoder中使用 REST API 的详细教程，请参阅 [使用 REST API](https://majiang.co/docs/using-rest-api)。
+创建查询，选择您的 REST API 数据源，然后设置查询参数信息，即可点击​**运行**​。关于在Lowcoder中使用 REST API 的详细教程，请参阅 [使用 REST API](../using-rest-api)。
 
 ![](../assets/rest-api-3-20231002173307-zmsps7u.png)​
 
-* [新建数据源](https://majiang.co/docs/api/rest-api#%E6%96%B0%E5%BB%BA%E6%95%B0%E6%8D%AE%E6%BA%90)
-* [认证方式](https://majiang.co/docs/api/rest-api#%E8%AE%A4%E8%AF%81%E6%96%B9%E5%BC%8F)
-* [创建查询](https://majiang.co/docs/api/rest-api#%E5%88%9B%E5%BB%BA%E6%9F%A5%E8%AF%A2)
+* [新建数据源](../api/rest-api#%E6%96%B0%E5%BB%BA%E6%95%B0%E6%8D%AE%E6%BA%90)
+* [认证方式](../api/rest-api#%E8%AE%A4%E8%AF%81%E6%96%B9%E5%BC%8F)
+* [创建查询](../api/rest-api#%E5%88%9B%E5%BB%BA%E6%9F%A5%E8%AF%A2)

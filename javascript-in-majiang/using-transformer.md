@@ -2,7 +2,7 @@
 
 转换器 (Transformer)
 
-转换器 (Transformer) 支持编写多行 JavaScript 代码，帮助我们实现查询/组件/临时状态等数据的转换以及方法的复用。与 [JavaScript 表达式](https://majiang.co/docs/javascript-in-majiang/writing-javascript)​`{{ }}`​ 不同，转换器支持多行 JS 代码。与 [JavaScript 查询](https://majiang.co/docs/javascript-in-majiang/javascript-query)不同，转换器中只支持只读操作，不能修改引用数据的值或者触发查询等。此外，转换器依赖的数据变化时，它的值将​**自动更新**​。
+转换器 (Transformer) 支持编写多行 JavaScript 代码，帮助我们实现查询/组件/临时状态等数据的转换以及方法的复用。与 [JavaScript 表达式](../javascript-in-majiang/writing-javascript)​`{{ }}`​ 不同，转换器支持多行 JS 代码。与 [JavaScript 查询](../javascript-in-majiang/javascript-query)不同，转换器中只支持只读操作，不能修改引用数据的值或者触发查询等。此外，转换器依赖的数据变化时，它的值将​**自动更新**​。
 
 ## 快速上手
 
@@ -26,7 +26,7 @@
 
 ![](../assets/3-20231002175907-u2mmmmj.png)​
 
-此处可以使用 [lodash](https://majiang.co/docs/javascript-in-majiang/using-array#%E4%BD%BF%E7%94%A8lodash%E6%93%8D%E4%BD%9C%E6%95%B0%E7%BB%84) 的 `_.orderBy()`​ 方法：
+此处可以使用 [lodash](../javascript-in-majiang/using-array#%E4%BD%BF%E7%94%A8lodash%E6%93%8D%E4%BD%9C%E6%95%B0%E7%BB%84) 的 `_.orderBy()`​ 方法：
 
 ![](../assets/4-20231002175907-tkas9bq.png)​
 

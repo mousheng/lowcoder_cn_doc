@@ -1,6 +1,6 @@
 # 自定义 CSS 注意事项
 
-本文档介绍在Lowcoder中通过编写[自定义 CSS](https://majiang.co/docs/style#%E8%87%AA%E5%AE%9A%E4%B9%89css) 代码实现丰富样式的注意事项。
+本文档介绍在Lowcoder中通过编写[自定义 CSS](../style#%E8%87%AA%E5%AE%9A%E4%B9%89css) 代码实现丰富样式的注意事项。
 
 1. 编写自定义 CSS 代码时，请尽量使用如下 CSS 选择器：
 
@@ -83,4 +83,4 @@ scanne
 
 自定义的 CSS 都会放到 `#app-{APP_ID}`​ 的命名空间内，模块的 CSS 会放到 `#module-{MODULE_ID}`​ 的命名空间内。
 
-6. 如果设置的自定义 CSS 样式没有生效，很可能是[应用主题](https://majiang.co/docs/style#%E5%BA%94%E7%94%A8%E4%B8%BB%E9%A2%98)或[组件样式](https://majiang.co/docs/style#%E7%BB%84%E4%BB%B6%E6%A0%B7%E5%BC%8F)属性配置具有更高的优先级，因而覆盖了 CSS 样式。开发者可以通过浏览器的**审查元素 (Inspect)** 工具来自行排查。
+6. 如果设置的自定义 CSS 样式没有生效，很可能是[应用主题](../style#%E5%BA%94%E7%94%A8%E4%B8%BB%E9%A2%98)或[组件样式](../style#%E7%BB%84%E4%BB%B6%E6%A0%B7%E5%BC%8F)属性配置具有更高的优先级，因而覆盖了 CSS 样式。开发者可以通过浏览器的**审查元素 (Inspect)** 工具来自行排查。

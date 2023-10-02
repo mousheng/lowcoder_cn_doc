@@ -8,7 +8,7 @@
 
 ## 准备
 
-正式开始前，您需要获取 DM 数据库的连接配置，并参考[IP 白名单](https://majiang.co/docs/ip-allowlist)文档将Lowcoder的 IP 地址添加到数据库网络的**白名单**中（按需配置）。
+正式开始前，您需要获取 DM 数据库的连接配置，并参考[IP 白名单](../ip-allowlist)文档将Lowcoder的 IP 地址添加到数据库网络的**白名单**中（按需配置）。
 
 如果您从未使用过达梦，可参阅 DM 数据库的[快速上手](https://eco.dameng.com/document/dm/zh-cn/start/index.html)文档安装数据库。例如，您可以通过 [Docker 安装](https://eco.dameng.com/document/dm/zh-cn/start/dm-install-docker.html)数据库，安装完成后，新版本 Docker 镜像中数据库默认**用户名/密码**为 SYSDBA/SYSDBA001。
 
@@ -24,6 +24,6 @@ Lowcoder集成了达梦的 JDBC 驱动，使用户可通过Lowcoder直接连接�
 
 ## 创建查询
 
-在应用编辑页面，点击**新建**创建查询，选择您的达梦数据源，然后编写 SQL 查询语句，编写完成后，即可点击​**运行**​。如果将运行结果与Lowcoder中[组件](https://majiang.co/docs/component-guides)的数据字段绑定，就能使数据可视化。关于详细的 SQL 使用教程，可参阅 DM 数据库的 [SQL开发指南](https://eco.dameng.com/document/dm/zh-cn/sql-dev/)。
+在应用编辑页面，点击**新建**创建查询，选择您的达梦数据源，然后编写 SQL 查询语句，编写完成后，即可点击​**运行**​。如果将运行结果与Lowcoder中[组件](../component-guides)的数据字段绑定，就能使数据可视化。关于详细的 SQL 使用教程，可参阅 DM 数据库的 [SQL开发指南](https://eco.dameng.com/document/dm/zh-cn/sql-dev/)。
 
 ![](../assets/8-20231002172956-x1r5x8o.png)​

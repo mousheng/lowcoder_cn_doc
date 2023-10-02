@@ -1,10 +1,10 @@
 # 管理数据源
 
-Lowcoder支持和整合了多种[数据库](https://majiang.co/docs/database)和第三方 [API](https://majiang.co/docs/api)，帮助您方便高效地管理数据源。本文档介绍如何在Lowcoder中新建数据源和分配数据源权限。
+Lowcoder支持和整合了多种[数据库](./database)和第三方 [API](./api)，帮助您方便高效地管理数据源。本文档介绍如何在Lowcoder中新建数据源和分配数据源权限。
 
 ## 新建数据源
 
-开始之前，请参考[IP 白名单](https://majiang.co/docs/ip-allowlist)文档将Lowcoder的 IP 地址添加到您的数据源所在的网络白名单中（按需配置）。
+开始之前，请参考[IP 白名单](./ip-allowlist)文档将Lowcoder的 IP 地址添加到您的数据源所在的网络白名单中（按需配置）。
 
 新建数据源的一般步骤如下：
 
@@ -17,7 +17,7 @@ Lowcoder支持和整合了多种[数据库](https://majiang.co/docs/database)和
 
 ![](assets/5-20231002134333-fx3cy8a.png)​
 
-4. 填写数据源的配置信息，详细教程请参阅[连接数据库](https://majiang.co/docs/database)和[连接 API](https://majiang.co/docs/api) 部分的文档。
+4. 填写数据源的配置信息，详细教程请参阅[连接数据库](./database)和[连接 API](./api) 部分的文档。
 5. 点击测试连接，检查当前配置信息是否满足要求。
 6. 点击保存。
 
