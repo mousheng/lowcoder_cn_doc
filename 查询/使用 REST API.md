@@ -1,15 +1,5 @@
 # 使用 REST API
 
----
-
-* [https://majiang.co/docs/using-rest-api](https://majiang.co/docs/using-rest-api)
-* 使用 REST API
-* 2023-10-02 17:35:05
-
----
-
-使用 REST API
-
 在码匠中，您如果连接的是 REST API 数据源，那么您可以在查询中向 API 发送各种 HTTP 请求。本文档将介绍如何向 REST API 发送 HTTP 请求。
 
 码匠中创建一个 REST API 查询有两种方式：

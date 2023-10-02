@@ -1,15 +1,5 @@
 # 连接 StarRocks
 
----
-
-* [https://majiang.co/docs/database/starrocks](https://majiang.co/docs/database/starrocks)
-* 码匠已经实现了与 StarRocks 数据库的连接，支持对 StarRocks 数据进行增、删、改、查， 同时还支持将数据绑定至各种组件，并通过简单的代码实现数据的可视化和计算等操作，能让您快速、高效地搭建应用和内部系统。
-* 2023-10-02 17:30:25
-
----
-
-连接 StarRocks
-
 ​![](assets/1-20231002173025-2ea0a6v.png)​
 
 [StarRocks](https://www.starrocks.io/) 是开源的新一代极速全场景 MPP（Massively Parallel Processing，即大规模并行处理）数据库。它采用新一代的弹性 MPP 架构，可以高效支持大数据量级的多维分析、实时分析、高并发分析等多种数据分析场景。StarRocks 性能出色，它采用了全面向量化技术，比同类产品平均快 3-5 倍。

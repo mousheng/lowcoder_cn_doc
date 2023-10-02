@@ -1,15 +1,5 @@
 # 连接 openGauss
 
----
-
-* [https://majiang.co/docs/database/openGauss](https://majiang.co/docs/database/openGauss)
-* 码匠已经实现了与 openGauss 数据库的连接，支持对 openGauss 数据进行增、删、改、查， 同时还支持将数据绑定至各种组件，并通过简单的代码实现数据的可视化和计算等操作，能让您快速、高效地搭建应用和内部系统。
-* 2023-10-02 17:30:05
-
----
-
-连接 openGauss
-
 ​![](assets/5-20231002173006-ydk1p3w.png)​
 
 [openGauss](https://www.opengauss.org/zh/) 是由华为公司开发的一款开源关系型数据库管理系统，它基于 PostgreSQL 数据库引擎，针对大规模数据处理、分布式、高可用性等场景进行了优化，支持复杂查询和高并发访问，能够满足大规模企业级应用的需求。同时，openGauss 还提供了丰富的数据安全性功能，包括数据加密、访问控制、审计等，保障数据的安全性和可靠性。

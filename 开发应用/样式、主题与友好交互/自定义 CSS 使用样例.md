@@ -1,15 +1,5 @@
 # 自定义 CSS 使用样例
 
----
-
-* [https://majiang.co/docs/style/css-demo](https://majiang.co/docs/style/css-demo)
-* 自定义 CSS 使用样例
-* 2023-10-02 18:10:27
-
----
-
-自定义 CSS 使用样例
-
 本文档展示了在码匠中通过编写[自定义 CSS](https://majiang.co/docs/style#%E8%87%AA%E5%AE%9A%E4%B9%89css) 代码实现丰富样式的若干 ​**demo**​。
 
 * 如需为**单个应用**添加自定义 CSS，请参阅[应用级 CSS](https://majiang.co/docs/style#%E5%BA%94%E7%94%A8%E7%BA%A7css)；

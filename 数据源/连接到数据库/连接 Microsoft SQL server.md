@@ -1,15 +1,5 @@
 # 连接 Microsoft SQL server
 
----
-
-* [https://majiang.co/docs/database/ms-SQL-server](https://majiang.co/docs/database/ms-SQL-server)
-* 连接 Microsoft SQL server
-* 2023-10-02 17:29:26
-
----
-
-连接 Microsoft SQL server
-
 ## 准备
 
 首先您要获取到 Microsoft SQL server 数据库的连接配置，然后参考[IP 白名单](https://majiang.co/docs/ip-allowlist)文档将码匠的 IP 地址添加到数据库网络的白名单中（按需配置）。

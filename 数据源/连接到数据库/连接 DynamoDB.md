@@ -1,15 +1,5 @@
 # 连接 DynamoDB
 
----
-
-* [https://majiang.co/docs/database/dynamodb](https://majiang.co/docs/database/dynamodb)
-* 码匠已经实现了与 DynamoDB 数据库的连接，支持对 DynamoDB 数据进行增、删、改、查， 同时还支持将数据绑定至各种组件，并通过简单的代码实现数据的可视化和计算等操作，能让您快速、高效地搭建应用和内部系统。
-* 2023-10-02 17:30:28
-
----
-
-连接 DynamoDB
-
 ​![](assets/1-20231002173029-nzgyxqd.png)​
 
 [DynamoDB](https://aws.amazon.com/cn/dynamodb/) 是亚马逊 AWS 的一种高性能、全托管的 NoSQL 数据库服务。Amazon DynamoDB 能够提供高度可扩展性、低延迟和可靠性，它支持多种数据类型和数据模型，包括键-值、文档和图形数据。DynamoDB 的数据模型非常灵活，可以根据需要对数据进行读取和写入。DynamoDB 可以轻松地与其他 AWS 服务集成，例如 Lambda、API Gateway、Elasticsearch 等，可以构建高效、高可用的应用程序和服务。

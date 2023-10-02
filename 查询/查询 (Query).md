@@ -1,15 +1,5 @@
 # 查询 (Query)
 
----
-
-* [https://majiang.co/docs/how-to-write-query](https://majiang.co/docs/how-to-write-query)
-* 查询 (Query)
-* 2023-10-02 17:34:52
-
----
-
-查询 (Query)
-
 查询是数据源和 UI 之间的桥梁。您可以在编辑应用时或者在[查询库](https://majiang.co/docs/query-library)中创建查询。本文档将介绍如何创建和使用查询。
 
 ## 步骤 1：连接数据源

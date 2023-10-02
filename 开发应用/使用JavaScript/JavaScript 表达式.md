@@ -1,15 +1,5 @@
 # JavaScript 表达式
 
----
-
-* [https://majiang.co/docs/javascript-in-majiang/writing-javascript](https://majiang.co/docs/javascript-in-majiang/writing-javascript)
-* JavaScript 表达式
-* 2023-10-02 17:58:56
-
----
-
-JavaScript 表达式
-
 当在码匠中构建应用程序时，您可以通过在 `{{ }}`​ 中编写自定义的 JavaScript 表达式来访问、操作页面上所有可用的数据，以及全局变量。
 
 ## 访问数据

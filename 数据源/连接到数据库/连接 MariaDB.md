@@ -1,15 +1,5 @@
 # 连接 MariaDB
 
----
-
-* [https://majiang.co/docs/database/mariadb](https://majiang.co/docs/database/mariadb)
-* 连接 MariaDB
-* 2023-10-02 17:29:52
-
----
-
-连接 MariaDB
-
 ​![](assets/5-20231002172952-45sty8i.png)​
 
 [MariaDB](https://mariadb.org/) 是一个免费的、开源的关系型数据库管理系统，相对于 MySQL 而言，具有更好的性能和更好的兼容性，同时也支持更多的存储引擎。MariaDB 也支持事务处理、副本和分布式处理等高级功能。MariaDB 中的数据存储方式与 MySQL 完全兼容，无需更改现有的代码即可进行迁移。目前 MariaDB 广泛应用于 Web 应用程序、企业级解决方案、云计算平台、分布式系统等领域中。

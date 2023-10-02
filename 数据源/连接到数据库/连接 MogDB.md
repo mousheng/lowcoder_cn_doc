@@ -1,15 +1,5 @@
 # 连接 MogDB
 
----
-
-* [https://majiang.co/docs/database/mogdb](https://majiang.co/docs/database/mogdb)
-* 码匠已经实现了与 MogDB 数据库的连接，支持对 MogDB 数据进行增、删、改、查， 同时还支持将数据绑定至各种组件，并通过简单的代码实现数据的可视化和计算等操作，能让您快速、高效地搭建应用和内部系统。
-* 2023-10-02 17:30:21
-
----
-
-连接 MogDB
-
 ​![](assets/1-20231002173022-u9wnleg.png)​
 
 [MogDB](https://enmotech.com/products/MogDB) 是云和恩墨基于 openGauss 内核进行增强提升，推出的一款安稳易用的企业级关系型数据库，是一种分布式、高可用的大规模数据存储和处理解决方案，支持多种数据格式和访问方式，适用于云计算、大数据和物联网等场景，具有高性能、高可靠和易于管理的特点。

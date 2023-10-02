@@ -1,15 +1,5 @@
 # JavaScript 查询
 
----
-
-* [https://majiang.co/docs/javascript-in-majiang/javascript-query](https://majiang.co/docs/javascript-in-majiang/javascript-query)
-* JavaScript 查询
-* 2023-10-02 17:59:03
-
----
-
-JavaScript 查询
-
 在码匠中构建应用时，相较于在 `{{ }}`​ 内编写 [JavaScript 表达式](https://majiang.co/docs/javascript-in-majiang/writing-javascript)，通过 JavaScript 查询功能可以编写和运行更加复杂的 JavaScript 代码。这里的 JavaScript 代码支持的功能包括：
 
 * 调用库函数

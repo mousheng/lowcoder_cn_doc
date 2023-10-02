@@ -1,15 +1,5 @@
 # 连接 API
 
----
-
-* [https://majiang.co/docs/api](https://majiang.co/docs/api)
-* 连接 API
-* 2023-10-02 18:14:06
-
----
-
-连接 API
-
 ​![](assets/1_1_7-1-20231002181407-6cnjc8j.png)​
 
 码匠支持连接多种类型的 API，可通过以下文档了解如何连接各种 API：

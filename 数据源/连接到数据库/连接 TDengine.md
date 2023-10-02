@@ -1,15 +1,5 @@
 # 连接 TDengine
 
----
-
-* [https://majiang.co/docs/database/tdengine](https://majiang.co/docs/database/tdengine)
-* 码匠已经实现了与 TDengine 数据库的连接，支持对 TDengine 数据进行增、删、改、查， 同时还支持将数据绑定至各种组件，并通过简单的代码实现数据的可视化和计算等操作，能让您快速、高效地搭建应用和内部系统。
-* 2023-10-02 17:30:15
-
----
-
-连接 TDengine
-
 ​![](assets/1-20231002173015-nya1o7e.png)​
 
 [TDengine](https://www.taosdata.com/) 是一种高性能的开源时序数据库，专门用于大规模数据的实时写入、存储和查询。它具有高效、稳定、可靠、灵活等特点，可在物联网、金融、工业互联网等领域应用中发挥巨大作用。TDengine 采用了自主研发的存储引擎 TAOS，可以快速地处理亿级以上的数据量；提供了开放的 API 和丰富的生态工具链，可与多种数据分析、可视化工具集成。

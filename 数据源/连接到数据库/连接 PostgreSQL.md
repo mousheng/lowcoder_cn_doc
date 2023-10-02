@@ -1,15 +1,5 @@
 # 连接 PostgreSQL
 
----
-
-* [https://majiang.co/docs/database/postgresql](https://majiang.co/docs/database/postgresql)
-* 连接 PostgreSQL
-* 2023-10-02 17:29:23
-
----
-
-连接 PostgreSQL
-
 ## 准备
 
 首先您要获取到 PostgreSQL 数据库的连接配置，然后参考[IP 白名单](https://majiang.co/docs/ip-allowlist)文档将码匠的 IP 地址添加到数据库网络的白名单中（按需配置）。

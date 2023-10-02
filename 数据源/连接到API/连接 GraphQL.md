@@ -1,15 +1,5 @@
 # 连接 GraphQL
 
----
-
-* [https://majiang.co/docs/api/graphql](https://majiang.co/docs/api/graphql)
-* 连接 GraphQL
-* 2023-10-02 17:33:17
-
----
-
-连接 GraphQL
-
 ## 新建数据源
 
 ​**新建数据源 -&gt; GraphQL**​，与[连接 REST API](https://majiang.co/docs/api/rest-api) 类似，数据源中可配置查询所公用的参数：如 URL 前缀、Headers 和 Parameters，之后可基于该数据源创建查询。

@@ -1,15 +1,5 @@
 # 自定义 CSS 注意事项
 
----
-
-* [https://majiang.co/docs/style/css-manual](https://majiang.co/docs/style/css-manual)
-* 表单是信息添加、录入的通用形式，合理的表单设计能减轻用户负担，提升使用效率。
-* 2023-10-02 18:10:30
-
----
-
-自定义 CSS 注意事项
-
 本文档介绍在码匠中通过编写[自定义 CSS](https://majiang.co/docs/style#%E8%87%AA%E5%AE%9A%E4%B9%89css) 代码实现丰富样式的注意事项。
 
 1. 编写自定义 CSS 代码时，请尽量使用如下 CSS 选择器：

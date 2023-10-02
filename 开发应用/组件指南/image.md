@@ -12,7 +12,6 @@
 
 在右侧图片地址输入框除了输入 URL 之外，您也可以填写一个图片内容转换的 Base64 字符串，字符串需要保留正确的描述符前缀，例如：data:image/jpeg;base64,（逗号不能省略）。
 
-
 <mark style="background-color:yellow;">`data:image/PICTURE_FORMAT;base64`</mark><mark style="background-color:yellow;">**`,`**</mark><mark style="background-color:yellow;">`YOUR_BASE64_ENCODED_IMAGE_DATA`</mark>
 
 <mark style="background-color:yellow;">`data:image;base64`</mark><mark style="background-color:yellow;">**`,`**</mark><mark style="background-color:yellow;">`YOUR_BASE64_ENCODED_IMAGE_DATA`</mark>

@@ -1,13 +1,5 @@
 # 如何访问宿主机 APIDB
 
----
-
-* [https://majiang.co/docs/visit-host-api-or-db](https://majiang.co/docs/visit-host-api-or-db)
-* 使用 Docker 镜像在本地服务器部署码匠后，您可能需要码匠访问部署在同一台服务器（宿主机）的 API/DB 数据源。码匠镜像默认使用[桥接 (Bridge) 模式](https://docs.docker.com/network/bridge/)，因此无法通过 `127.0.0.1`​/`localhost`​ 访问宿主机相关服务（只能请求到镜像内部网络）。本文以 MySQL 为例，介绍在不同系统环境下如何访问宿主机上的 API/DB。
-* 2023-10-02 18:12:38
-
----
-
 如何访问宿主机 API/DB
 
 使用 Docker 镜像在本地服务器部署码匠后，您可能需要码匠访问部署在同一台服务器（宿主机）的 API/DB 数据源。码匠镜像默认使用 [桥接 (Bridge) 模式](https://docs.docker.com/network/bridge/)，因此无法通过 `127.0.0.1`​/`localhost`​ 访问宿主机相关服务（只能请求到镜像内部网络）。本文以 MySQL 为例，介绍在不同系统环境下如何访问宿主机上的 API/DB。

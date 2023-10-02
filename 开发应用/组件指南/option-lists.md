@@ -11,7 +11,6 @@
 * **禁用：** 禁用当前选项（默认值为 false）
 * **隐藏：** 隐藏当前选项（默认值为 false）
 
-
 <figure><img src="../../.gitbook/assets/optionproperty.png" alt=""><figcaption></figcaption></figure>
 
 > #### 💡 说明
@@ -25,7 +24,6 @@
 
 <figure><img src="../../.gitbook/assets/setbyhand.png" alt=""><figcaption></figcaption></figure>
 
-
 > #### 💡 说明
 >
 > 以下情况，推荐手动配置选项：
@@ -38,14 +36,11 @@
 
 选择**自动**模式，在**数据**输入框中输入 JavaScript 表达式，数据源数组中的元素将自动映射为选项。例如：通过 `{{getFoodTypes.data}}` 获取食品列表查询结果，数组每一项的格式包含 `id`、`desc`、`price`、`stock(库存)` 属性。
 
-
 <figure><img src="../../.gitbook/assets/autoset.png" alt=""><figcaption></figcaption></figure>
 
 使用 `item` 引用当前选项的内容，`i` 是当前选项的下标（从 0 开始），可以利用 `item` 与 `i`  编写 JavaScript 表达式灵活控制选项属性。上述例子中，食品列表选项属性可以参考如下配置：
 
-
 <figure><img src="../../.gitbook/assets/autoset1.png" alt=""><figcaption></figcaption></figure>
-
 
 这里通过 `{{item.desc}}` 与 `{{item.id}}` 设置选项的标签和值，如果当前选项的库存 (stock) 为 0 `{{item.stock === 0}}`，则禁用当前选项。
 

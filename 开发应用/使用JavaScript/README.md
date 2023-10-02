@@ -1,15 +1,5 @@
 # 使用 JavaScript
 
----
-
-* [https://majiang.co/docs/javascript-in-majiang](https://majiang.co/docs/javascript-in-majiang)
-* JavaScript 表达式
-* 2023-10-02 18:14:14
-
----
-
-使用 JavaScript
-
 码匠致力于提供极致的灵活度与扩展性，您几乎可以在任何地方编写 JavaScript 来串联与实现您的业务逻辑。
 
 您可以根据使用场景，选择不同的 JavaScript 工具：

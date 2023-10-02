@@ -1,15 +1,5 @@
 # Docker
 
----
-
-* [https://majiang.co/docs/docker](https://majiang.co/docs/docker)
-* Docker
-* 2023-10-02 18:12:24
-
----
-
-Docker
-
 您可以选择使用 Docker-Compose  (推荐）或者 Docker 私有化部署码匠。
 
 ## 准备

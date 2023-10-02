@@ -1,15 +1,5 @@
 # 连接达梦 DM
 
----
-
-* [https://majiang.co/docs/database/dameng](https://majiang.co/docs/database/dameng)
-* 连接达梦 DM
-* 2023-10-02 17:29:55
-
----
-
-连接达梦 DM
-
 ​![](assets/5-20231002172956-dzmyri0.png)​
 
 达梦 DM 是武汉达梦自主研发的一款企业级关系型数据库管理系统。其最新版本 [DM8](https://eco.dameng.com/info/products/dm8) 提供了更高的性能、更强的安全性、更好的可扩展性和更好的兼容性，支持分布式、并行、高可用、大数据处理等，提供了多种编程语言和开发工具，已广泛应用于政府、金融、电信、物流等领域，是国内数据库领域的主要品牌之一。

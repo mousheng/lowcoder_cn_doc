@@ -86,7 +86,6 @@ lowcoder还集成了 [Apache ECharts](https://echarts.apache.org/zh/index.html) 
 
 本次以[动态排序折线图](https://echarts.apache.org/examples/zh/editor.html?c=line-race)为例。
 
-
 <figure><img src="../../.gitbook/assets/2.gif" alt=""><figcaption></figcaption></figure>
 
 打开示例页面，左侧代码编辑框下拉到 `option` 赋值语句，在下一行输入 `console.log(option)` 来打印 `option`

@@ -1,15 +1,5 @@
 # 连接 PolarDB
 
----
-
-* [https://majiang.co/docs/database/polardb](https://majiang.co/docs/database/polardb)
-* 码匠已经实现了与 PolarDB 数据库的连接，支持对 PolarDB 数据进行增、删、改、查， 同时还支持将数据绑定至各种组件，并通过简单的代码实现数据的可视化和计算等操作，能让您快速、高效地搭建应用和内部系统。
-* 2023-10-02 17:30:09
-
----
-
-连接 PolarDB
-
 ​![](assets/1-20231002173010-m0tu9z3.png)​
 
 [PolarDB](https://www.aliyun.com/product/polardb) 是阿里云自主研发的新一代关系型云原生数据库，它基于分布式存储和计算技术，能够提供高性能、高可用和强一致性的数据存储和管理服务。相比于传统的关系型数据库，PolarDB 采用了多副本存储、多副本数据同步、数据分片等技术，能够支持海量数据存储和处理，并且具有更高的可扩展性和可用性。

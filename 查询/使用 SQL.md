@@ -1,15 +1,5 @@
 # 使用 SQL
 
----
-
-* [https://majiang.co/docs/using-sql](https://majiang.co/docs/using-sql)
-* 使用 SQL
-* 2023-10-02 17:35:01
-
----
-
-使用 SQL
-
 在码匠中，您如果连接的是 SQL 类数据源（MySQL、PostgreSQL、Microsoft SQL Server 等），则可以通过编写 SQL 语句或者 GUI 模式构建查询。
 
 ## 读请求

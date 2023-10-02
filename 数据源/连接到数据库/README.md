@@ -1,15 +1,5 @@
 # 连接数据库
 
----
-
-* [https://majiang.co/docs/database](https://majiang.co/docs/database)
-* 连接数据库
-* 2023-10-02 18:14:01
-
----
-
-连接数据库
-
 ​![](assets/1_1_7-20231002181401-nfbp5c7.png)​
 
 码匠支持连接多种类型的数据库，可通过以下文档了解如何连接各种数据库：

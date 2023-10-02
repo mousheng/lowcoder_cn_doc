@@ -1,15 +1,5 @@
 # 连接 OceanBase
 
----
-
-* [https://majiang.co/docs/database/oceanbase](https://majiang.co/docs/database/oceanbase)
-* 码匠已经实现了与 OceanBase 数据库的连接，支持对 OceanBase 数据进行增、删、改、查， 同时还支持将数据绑定至各种组件，并通过简单的代码实现数据的可视化和计算等操作，能让您快速、高效地搭建应用和内部系统。
-* 2023-10-02 17:30:01
-
----
-
-连接 OceanBase
-
 ​![](assets/1-20231002173002-b5hpgja.png)​
 
 [OceanBase](https://www.oceanbase.com/) 是蚂蚁集团自主研发的高性能分布式关系型数据库系统。通过自主研发的分布式事务引擎、高性能存储引擎和智能优化器等技术，实现了多副本数据自动同步和故障恢复、高效数据查询和修改、以及数据安全保护等功能。此外，它还提供了丰富的数据管理工具和 API，支持 SQL 语言和 NoSQL 接口，能满足各种应用场景的需求。
