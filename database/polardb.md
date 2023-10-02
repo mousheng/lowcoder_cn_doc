@@ -1,6 +1,6 @@
 # 连接 PolarDB
 
-​![](assets/1-20231002173010-m0tu9z3.png)​
+![](../assets/1-20231002173010-m0tu9z3.png)​
 
 [PolarDB](https://www.aliyun.com/product/polardb) 是阿里云自主研发的新一代关系型云原生数据库，它基于分布式存储和计算技术，能够提供高性能、高可用和强一致性的数据存储和管理服务。相比于传统的关系型数据库，PolarDB 采用了多副本存储、多副本数据同步、数据分片等技术，能够支持海量数据存储和处理，并且具有更高的可扩展性和可用性。
 
@@ -14,14 +14,14 @@ Lowcoder目前支持了 PolarDB 的 **MySQL** 引擎。通过与 PolarDB 数据�
 
 在[Lowcoder主页](https://cloud.majiang.co/apps)左下角，点击**数据源**进入当前企业的数据源管理界面，然后点击右上角 **+ 新建数据源** > ​**PolarDB**​，填写您的 PolarDB 数据库的配置信息。点击​**测试连接**​，提示**连接成功**后再点击**保存**按钮，该 PolarDB 数据源即新建完成，并且保存至企业的数据源列表中。
 
-​![](assets/2-20231002173010-70xmn2k.png)​
+![](../assets/2-20231002173010-70xmn2k.png)​
 
 ## 创建查询
 
 在应用编辑页面，点击**新建**创建查询，选择您的 PolarDB 数据源，然后编写 SQL 查询语句。Lowcoder中支持 **SQL 模式**和 **GUI模式**​，让您能够更加灵活便捷地操作数据。关于在Lowcoder中使用 SQL 的详细教程，可参阅文档[使用 SQL](https://majiang.co/docs/using-sql)。
 
-​![](assets/3-20231002173009-e9dxky1.png)​
+![](../assets/3-20231002173009-e9dxky1.png)​
 
 编写完成后，点击**运行**可查看查询的执行结果。如果将运行结果与Lowcoder中[组件](https://majiang.co/docs/component-guides)的数据字段绑定，就能使数据可视化。
 
-​![](assets/4-20231002173010-7d4hbs7.png)​
+![](../assets/4-20231002173010-7d4hbs7.png)​

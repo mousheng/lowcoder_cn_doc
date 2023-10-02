@@ -6,7 +6,7 @@ Lowcoder中创建一个 REST API 查询有两种方式：
 
 1. 新建一个 REST API 数据源，数据源中可配置查询所公用的参数：如 URL 前缀、Headers 和 Parameters，还可设置数据源的[认证方式](https://majiang.co/docs/api/rest-api#%E8%AE%A4%E8%AF%81%E6%96%B9%E5%BC%8F) (None/Basic/Digest)，之后基于该数据源创建查询。
 
-​![](assets/n1-20231002173506-7cyyhgg.png)​
+![](assets/n1-20231002173506-7cyyhgg.png)​
 
 2. 基于内置 **REST查询** 数据源创建查询，**REST查询** 数据源 URL、Header 等参数均为空。
 

@@ -23,7 +23,7 @@
 }
 ```
 
-​![](assets/1-20231002181028-h4dotzx.png)​
+![](../assets/1-20231002181028-h4dotzx.png)​
 
 ## 自定义表格按钮颜色
 
@@ -42,7 +42,7 @@ table tr{
 }
 ```
 
-​![](assets/2-20231002181028-pn2dyzg.png)​
+![](../assets/2-20231002181028-pn2dyzg.png)​
 
 ## 实现表格文本自动换行
 
@@ -59,7 +59,7 @@ table tr{
 /* <th>: table head; <tr>: table row; <td>: table data */
 ```
 
-​![](assets/3-20231002181028-72fcz2s.png)​
+![](../assets/3-20231002181028-72fcz2s.png)​
 
 ## 自定义网格背景色 (画布/容器)
 
@@ -76,7 +76,7 @@ table tr{
 }
 ```
 
-​![](assets/4-20231002181028-bhj5gd2.png)​
+![](../assets/4-20231002181028-bhj5gd2.png)​
 
 ## 设置画布背景图片
 
@@ -88,4 +88,4 @@ table tr{
 }
 ```
 
-​![](assets/5-20231002181028-6a3upcv.png)​
+![](../assets/5-20231002181028-6a3upcv.png)​

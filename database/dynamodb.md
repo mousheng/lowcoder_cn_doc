@@ -1,6 +1,6 @@
 # 连接 DynamoDB
 
-​![](assets/1-20231002173029-nzgyxqd.png)​
+![](../assets/1-20231002173029-nzgyxqd.png)​
 
 [DynamoDB](https://aws.amazon.com/cn/dynamodb/) 是亚马逊 AWS 的一种高性能、全托管的 NoSQL 数据库服务。Amazon DynamoDB 能够提供高度可扩展性、低延迟和可靠性，它支持多种数据类型和数据模型，包括键-值、文档和图形数据。DynamoDB 的数据模型非常灵活，可以根据需要对数据进行读取和写入。DynamoDB 可以轻松地与其他 AWS 服务集成，例如 Lambda、API Gateway、Elasticsearch 等，可以构建高效、高可用的应用程序和服务。
 
@@ -14,14 +14,14 @@
 
 在[Lowcoder主页](https://cloud.majiang.co/apps)左下角，点击**数据源**进入当前企业的数据源管理界面，然后点击右上角 **+ 新建数据源** > ​**DynamoDB**​，并根据提示填写相应配置。
 
-​![](assets/2-20231002173029-9mm0pbh.png)​
+![](../assets/2-20231002173029-9mm0pbh.png)​
 
 ## 创建查询
 
 在应用编辑页面，点击**新建**创建查询，选择您的 DynamoDB 数据源，然后填写查询内容。Lowcoder中支持 DynamoDB 多种 Action，让您能够更加灵活便捷地操作数据。关于在Lowcoder中编辑 DynamoDB 查询的详细教程，可参阅文档 [Amazon DynamoDB Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)。
 
-​![](assets/3-20231002173029-redcdhf.png)​
+![](../assets/3-20231002173029-redcdhf.png)​
 
 编写完成后，点击**运行**可查看查询的执行结果。如果将运行结果与Lowcoder中[组件](https://majiang.co/docs/component-guides)的数据字段绑定，就能使数据可视化。
 
-​![](assets/4-20231002173029-hmkfz3d.png)​
+![](../assets/4-20231002173029-hmkfz3d.png)​

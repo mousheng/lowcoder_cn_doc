@@ -8,7 +8,7 @@
 
 **新建一个数据源** -> ​**Elasticsearch**​，填写数据源配置信息 -> ​**测试连接**​，连接成功后，选择​**保存**​，该 Elasticsearch 数据源即新建完成，并且保存到了您的数据源列表中。
 
-​![](assets/es-1-20231002172938-w5k8brr.png)​
+![](../assets/es-1-20231002172938-w5k8brr.png)​
 
 ## 创建查询
 
@@ -16,7 +16,7 @@
 
 下方案例展示了使用 ES 查询 `user2`​ 索引 (index) 下的全部数据。
 
-​![](assets/es-2-20231002172938-h1h68ve.png)​
+![](../assets/es-2-20231002172938-h1h68ve.png)​
 
 * [准备](https://majiang.co/docs/database/elasticsearch#%E5%87%86%E5%A4%87)
 * [新建数据源](https://majiang.co/docs/database/elasticsearch#%E6%96%B0%E5%BB%BA%E6%95%B0%E6%8D%AE%E6%BA%90)

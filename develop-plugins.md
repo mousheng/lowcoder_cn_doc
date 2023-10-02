@@ -31,7 +31,7 @@ yarn start
 
 ​`yarn start`​ 执行成功后，会自动打开浏览器，进入组件开发环境。
 
-​![](assets/1-20231002233242-f7jzko0.png)​
+![](assets/1-20231002233242-f7jzko0.png)​
 
 ## 插件配置
 
@@ -42,7 +42,7 @@ yarn start
 * ​`comps[someCompKey].name`​：组件展示在界面上的名称。
 * ​`comps[someCompKey].icon`​：组件展示在界面上的图标，此处需要填写一个相对于 `package.json`​ 文件的相对路径。
 
-​![](assets/2-20231002233242-ceyfz87.png)​
+![](assets/2-20231002233242-ceyfz87.png)​
 
 * ​`comps[someCompKey].layoutInfo`​：组件的布局信息。
 
@@ -97,7 +97,7 @@ yarn build --publish
 
 打开一个Lowcoder应用，在右侧面板 > **插入** > **扩展**中点击​**添加 npm 插件**​。
 
-​![](assets/3-20231002233242-8id912t.png)​
+![](assets/3-20231002233242-8id912t.png)​
 
 输入已发布的 npm 包 URL 或者名称，然后就可以像原生组件一样使用自定义组件了。
 

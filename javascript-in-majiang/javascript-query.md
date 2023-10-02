@@ -29,7 +29,7 @@ select tid, city, name from teams
 
 1. 新建查询 `query3`​，数据源选择**执行 JavaScript代码**​。
 
-​![](assets/1-20231002175904-nql9kvn.png)​
+![](../assets/1-20231002175904-nql9kvn.png)​
 
 2. 在输入框填写以下 JS 代码：
 
@@ -49,7 +49,7 @@ function join(players, teams) {
 
 在这段代码中，`Promise.all()`​ 方法接收了 `query1`​ 与 `query2`​ 的运行结果（类型为 Promise），成功运行后，用自定义函数 `join()`​ 基于 `tid`​ 字段合并了查询结果。`query3`​ 的查询结果如下所示：
 
-​![](assets/2-20231002175904-by3bpfv.png)​
+![](../assets/2-20231002175904-by3bpfv.png)​
 
 ### 声明函数
 
@@ -196,29 +196,29 @@ return query1.run({
 
 在应用编辑界面点击右上角 ​**•••**​，选择​**脚本与样式**​，您可以为当前应用引入额外的 JavaScript 库，定义预加载的 JavaScript 脚本。
 
-​![](assets/1-20231002175904-u6a7cs7.png)​
+![](../assets/1-20231002175904-u6a7cs7.png)​
 
-​![](assets/2-20231002175904-zmwxqc5.png)​
+![](../assets/2-20231002175904-zmwxqc5.png)​
 
 此外，如果想为企业下所有应用设置预加载的 JavaScript 库与脚本，可以进入Lowcoder主页 -> 设置 -> **高级设置**中进行配置：
 
-​![](assets/3-20231002175904-4hs5yne.png)​
+![](../assets/3-20231002175904-4hs5yne.png)​
 
 ### 添加 JavaScript 库
 
 例如，下面添加了 fxparser 库和 numeral 两个库：
 
-​![](assets/4-20231002175904-s1cau2u.png)​
+![](../assets/4-20231002175904-s1cau2u.png)​
 
 ### 定义 JavaScript 脚本
 
 JavaScript 脚本中，可以定义上下文无关的全局变量与方法，例如：
 
-​![](assets/5-20231002175904-gpzdj3x.png)​
+![](../assets/5-20231002175904-gpzdj3x.png)​
 
 之后您便可以在应用中引用定义的变量与方法：
 
-​![](assets/6-20231002175904-thbldw6.png)​
+![](../assets/6-20231002175904-thbldw6.png)​
 
 ## 附录：JavaScript 语法
 

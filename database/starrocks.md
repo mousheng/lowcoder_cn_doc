@@ -1,6 +1,6 @@
 # 连接 StarRocks
 
-​![](assets/1-20231002173025-2ea0a6v.png)​
+![](../assets/1-20231002173025-2ea0a6v.png)​
 
 [StarRocks](https://www.starrocks.io/) 是开源的新一代极速全场景 MPP（Massively Parallel Processing，即大规模并行处理）数据库。它采用新一代的弹性 MPP 架构，可以高效支持大数据量级的多维分析、实时分析、高并发分析等多种数据分析场景。StarRocks 性能出色，它采用了全面向量化技术，比同类产品平均快 3-5 倍。
 
@@ -14,14 +14,14 @@
 
 在[Lowcoder主页](https://cloud.majiang.co/apps)左下角，点击**数据源**进入当前企业的数据源管理界面，然后点击右上角 **+ 新建数据源** > ​**StarRocks**​，填写您的 StarRocks 数据库的配置信息。点击​**测试连接**​，提示**连接成功**后再点击**保存**按钮，该 StarRocks 数据源即新建完成，并且保存至企业的数据源列表中。
 
-​![](assets/2-20231002173025-16glndw.png)​
+![](../assets/2-20231002173025-16glndw.png)​
 
 ## 创建查询
 
 在应用编辑页面，点击**新建**创建查询，选择您的 StarRocks 数据源，然后编写 SQL 查询语句。Lowcoder中支持 **SQL 模式**和 **GUI模式**​，让您能够更加灵活便捷地操作数据。关于在Lowcoder中使用 SQL 的详细教程，可参阅文档[使用 SQL](https://majiang.co/docs/using-sql)。
 
-​![](assets/3-20231002173025-qts5wlt.png)​
+![](../assets/3-20231002173025-qts5wlt.png)​
 
 编写完成后，点击**运行**可查看查询的执行结果。如果将运行结果与Lowcoder中[组件](https://majiang.co/docs/component-guides)的数据字段绑定，就能使数据可视化。
 
-​![](assets/4-20231002173025-vqf366v.png)​
+![](../assets/4-20231002173025-vqf366v.png)​

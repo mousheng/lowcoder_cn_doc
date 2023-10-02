@@ -8,13 +8,13 @@
 
 **新建数据源** -> ​**ClickHouse**​，填写数据源配置信息 -> ​**测试连接**​，连接成功后，选择​**保存**​，该 ClickHouse 数据源即新建完成，并且保存到了您的数据源列表中。
 
-​![](assets/1-20231002172949-ciot8vb.png)​
+![](../assets/1-20231002172949-ciot8vb.png)​
 
 ## 创建查询
 
 点击**新建**创建查询，选择您的 ClickHouse 数据源，然后编写查询，完成后即可点击​**运行**​。
 
-​![](assets/2-20231002172949-5krrpuk.png)​
+![](../assets/2-20231002172949-5krrpuk.png)​
 
 * [准备](https://majiang.co/docs/database/clickhouse#%E5%87%86%E5%A4%87)
 * [新建数据源](https://majiang.co/docs/database/clickhouse#%E6%96%B0%E5%BB%BA%E6%95%B0%E6%8D%AE%E6%BA%90)

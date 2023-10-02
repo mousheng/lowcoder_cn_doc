@@ -10,11 +10,11 @@
 
 * URI 连接
 
-​![](assets/mongodb-1-20231002172847-bjy2h3z.png)​
+![](../assets/mongodb-1-20231002172847-bjy2h3z.png)​
 
 * 常规连接
 
-​![](assets/mongodb-2-20231002172847-7d11q1d.png)​
+![](../assets/mongodb-2-20231002172847-7d11q1d.png)​
 
 填写完成数据源配置信息​**-&gt;测试连接**​，连接成功后，选择​**保存**​，该 MongoDB 数据源即新建完成，并且保存到了您的数据源列表中。
 
@@ -24,7 +24,7 @@
 
 下方案例展示了使用 MongoDB 查询查询 `goods`​ 集合下的所有文档。
 
-​![](assets/mongodb-3-20231002172847-zyk4pgx.png)​
+![](../assets/mongodb-3-20231002172847-zyk4pgx.png)​
 
 * [准备](https://majiang.co/docs/database/mongodb#%E5%87%86%E5%A4%87)
 * [新建数据源](https://majiang.co/docs/database/mongodb#%E6%96%B0%E5%BB%BA%E6%95%B0%E6%8D%AE%E6%BA%90)

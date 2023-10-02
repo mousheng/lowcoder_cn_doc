@@ -8,13 +8,13 @@
 
 **新建数据源** -> ​**PostgreSQL**​，填写数据源配置信息 -> ​**测试连接**​，连接成功后，选择​**保存**​，该 PostgreSQL 数据源即新建完成，并且保存到了您的数据源列表中。
 
-​![](assets/postgresql-1-20231002172924-sl3qn5g.png)​
+![](../assets/postgresql-1-20231002172924-sl3qn5g.png)​
 
 ## 创建查询
 
 创建查询，选择您的 PostgreSQL 数据源，然后编写查询 SQL 语句，即可点击​**运行**​。
 
-​![](assets/postgresql-2-20231002172924-tn6jtyi.png)​
+![](../assets/postgresql-2-20231002172924-tn6jtyi.png)​
 
 * [准备](https://majiang.co/docs/database/postgresql#%E5%87%86%E5%A4%87)
 * [新建数据源](https://majiang.co/docs/database/postgresql#%E6%96%B0%E5%BB%BA%E6%95%B0%E6%8D%AE%E6%BA%90)
