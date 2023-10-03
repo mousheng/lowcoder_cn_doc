@@ -4,7 +4,7 @@
 
 Lowcoder 提供内置键盘快捷键，帮助您更快、更高效地在界面上工作，并提高控制精度。点击左下角**帮助 > 键盘快捷键** 可查看。
 
-<figure><img src="../.gitbook/assets/keyboard-shortcuts-1.png" alt=""><figcaption></figcaption></figure>
+![](./assets/keyboard-shortcuts-1.png)
 
 ### 全局
 
@@ -66,6 +66,6 @@ Lowcoder界面上的全局键盘快捷键。
 
 您可以在应用程序级别定义自定义键盘快捷键。 点击左侧栏 ⚙️>**自定义快捷键**。单击 **+添加** 为特定操作添加新的快捷方式，也可以单击三个点 `...` 将其删除。
 
-<figure><img src="../.gitbook/assets/keyboard-shortcuts-2.png" alt=""><figcaption></figcaption></figure>
+![](./assets/keyboard-shortcuts-2.png)
 
 Lowcoder键盘快捷键的设置最好避免与浏览器的键盘快捷键发生冲突，以防无法成功触发。

@@ -216,10 +216,10 @@ select * from {{input1.value === 'getUsers' ? 'users' : 'payments'}}
 
 首先点击编辑数据源：
 
-**       **![add1](assets/add1-20231002173502-qbxy4d9.png "add1")[           ](https://majiang.co/static/281ef4679d176bfb45225326e76d594a/21b4d/add1.png)
+![add1](assets/add1-20231002173502-qbxy4d9.png)
 
-然后在数据源配置窗口中勾选支持切换预编译 (PreparedStatement)后，点击保存： **       **![add2](assets/add2-20231002173502-6wedfae.png "add2")[           ](https://majiang.co/static/8a59cac00df49eb682787bb3793223b9/b97f6/add2.png)
+然后在数据源配置窗口中勾选支持切换预编译 (PreparedStatement)后，点击保存： ![add2](assets/add2-20231002173502-6wedfae.png)
 
-回到查询编辑面板，切换到高级面板，勾选禁用预编译 (PreparedStatement)： **       **![add3](assets/add3-20231002173502-1d0l7z0.png "add3")[           ](https://majiang.co/static/ebd5f3a9dc3bd9edcce3ee3ba25e5719/62de4/add3.png)
+回到查询编辑面板，切换到高级面板，勾选禁用预编译 (PreparedStatement)： ![add3](assets/add3-20231002173502-1d0l7z0.png)
 
 这样，预编译 (PreparedStatement) 即被关闭。

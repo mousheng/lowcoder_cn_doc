@@ -3,7 +3,7 @@
 组件和查询都有自己的事件 (Event)，事件可以有条件地触发某一或某些动作。可以设置执行查询、控制组件、全局提示等动作以响应事件。 一个用户交互友好的、符合逻辑的可用应用，离不开合理的事件设置，它将所有组件和查询串联起来，形成一个联通有机的整体。本文档将介绍组件和查询的事件设置。
 例如，对于**按钮**组件，您可以添加一个事件处理程序来触发**运行查询**操作***以响应按钮**单击**事件。
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+![](./assets/image%20(8)%20(1).png)
 
 正确的添加事件处理，可以提供反应灵敏的用户体验。例如，在**插入新数据**事件后触发**获取数据**的查询，可实现表格自动刷新。
 
@@ -15,23 +15,23 @@
 
 不同组件有不同的事件，如**按钮**组件只有**点击**事件。
 
-<figure><img src="../.gitbook/assets/Component-events.png" alt=""><figcaption></figcaption></figure>
+![](./assets/Component-events.png)
 
 **文本输入框**组件具有**更改**、**聚焦**、**失焦**和**提交**事件。
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+![](./assets/image%20(10)%20(1).png)
 
 ### 查询事件
 
 运行查询可能成功或失败，因此查询有两个事件： **成功**或**失败**。您可以在查询编辑器中为查询添加事件处理程序。
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+![](./assets/image%20(38).png)
 
 ## 事件动作
 
 Lowcoder中有九种事件动作可用于处理不同的场景。在事件处理程序的**操作**下拉列表中设置它们。
 
-![](<../.gitbook/assets/image (9) (1).png>)
+![](<./assets/image%20(9)%20(1).png>)
 
 如需了解[高级](event-handlers.md#高级)设置，请参阅本页的高级设置。
 
@@ -39,13 +39,13 @@ Lowcoder中有九种事件动作可用于处理不同的场景。在事件处理
 
 在组件或者查询的事件部分选择新建，动作设为执行查询，最后可以在下拉框中，选择要执行的查询名称。
 
-![](<../.gitbook/assets/image (7) (1).png>)
+![](<./assets/image (7) (1).png>)
 
 ### 控制组件
 
 在Lowcoder中，除了编写 JavaScript 控制组件之外，您还可以通过触发事件来控制组件。选择事件后，将动作选为控制组件，再选择相应的组件和对应的方法等。
 
-![](<../.gitbook/assets/image (29).png>)
+![](<./assets/image (29).png>)
 
 ### 设置临时状态
 
@@ -63,38 +63,38 @@ Lowcoder中有九种事件动作可用于处理不同的场景。在事件处理
 #### **示例**
 
 在「企业人员信息表」应用中，点击表格列「**部门**」的任一链接即可跳转到「**部门人员信息看板**」应用，并展示对应部门人员信息。
-<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
+![](<./assets/image (20) (1).png>)
 
 1.  **企业人员信息表**应用将当前行的部门信息 `{{currentRow.department}}` 作为 URL Query 参数传递给部门人员信息看板应用。
 
     
 2. **部门人员信息看板**应用全局变量 url 字段将自动解析应用请求的 URL。示例中， url.query 值为 `{"department":"研发部"}`，然后可在查询中通过 `{{url.query.department}}` 获取到对应部门信息。
 
-    <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+    ![](<./assets/image (14).png>)
 
 ### 跳转到指定应用
 
 将**动作**选为 **跳转到指定应用** ，再填写要打开链接的 URL ，可选是否要在新标签页打开。
 
-![](<../.gitbook/assets/image (6) (1).png>)
+![](<./assets/image (6) (1).png>)
 
 ### 全局提示
 
 添加一项事件后，选择**动作**为 **全局提示** ，再填写和设置相应的提示文案、信息级别（信息、成功、警告、错误）和持续时间即可。
 
-![](<../.gitbook/assets/image (25).png>)
+![](<./assets/image (25).png>)
 
 ### 复制到剪贴板
 
 将**动作**选为 **复制到剪贴板** ，再填写要复制的文本。
 
-![](<../.gitbook/assets/image (35) (1).png>)
+![](<./assets/image (35) (1).png>)
 
 ### 下载
 
 选择事件后，将**动作**选为 **下载** ，再填写下载的文件数据来源、文件名，选择文件类型。这样当事件触发后，就会有一个下载文件的动作执行，支持文件(TXT, JSON, CSV, and Excel)。
 
-![](../.gitbook/assets/Export-data.png)
+![](<./assets/Export-data.png>)
 
 ## 高级
 

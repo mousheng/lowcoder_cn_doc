@@ -16,7 +16,7 @@
 
 ## 修改临时状态
 
-临时状态提供 setValue/setIn 方法修改值，这些方法可以在[ JavaScript 查询](../javascript-in-majiang/javascript-query)中调用，也可以在**事件触发-&gt;设置临时状态**时选择。
+临时状态提供 setValue/setIn 方法修改值，这些方法可以在[ JavaScript 查询](../javascript-in-lowcoder/javascript-query)中调用，也可以在**事件触发-&gt;设置临时状态**时选择。
 
 1. ​`setValue`​——设置临时状态的值。
 

@@ -15,13 +15,13 @@
 
 在应用编辑界面下方的查询编辑器中，点击 **+ 新建** -> **数据变化响应器**即可创建。
 
-<figure><img src="../assets/1-20230810212003-rrtnfug.png" alt=""><figcaption></figcaption></figure>
+![](../assets/1-20230810212003-rrtnfug.png)
 
 创建完成后，可以设置该响应器所依赖的数据，以及数据变化 (dataChange) 后的响应动作。
 
 如下图，响应器 `dataResonder1` 监听文本组件 `text1` 中文本内容的变化，并在发生变化时触发全局提示。
 
-<figure><img src="../assets/2-20230810212004-urgasg1.png" alt=""><figcaption></figcaption></figure>
+![](../assets/2-20230810212004-urgasg1.png)
 
 ## 响应多项数据的变化
 
@@ -29,7 +29,7 @@
 
 如下图，响应器 `multiValuesChange` 所依赖的数据为一个 JS 对象 (Object)，同时监听表单中四个输入项，并在任意输入项发生变化时，触发相同的全局提示。
 
-<figure><img src="../assets/3-20230810212004-9kld4zh.png" alt=""><figcaption></figcaption></figure>
+![](../assets/3-20230810212004-9kld4zh.png)
 
 ## 事件动作
 

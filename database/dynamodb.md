@@ -12,7 +12,7 @@
 
 ## 新建数据源
 
-在[Lowcoder主页](https://cloud.majiang.co/apps)左下角，点击**数据源**进入当前企业的数据源管理界面，然后点击右上角 **+ 新建数据源** > ​**DynamoDB**​，并根据提示填写相应配置。
+在[Lowcoder主页](https://lowcoder.mousheng.top/apps)左下角，点击**数据源**进入当前企业的数据源管理界面，然后点击右上角 **+ 新建数据源** > ​**DynamoDB**​，并根据提示填写相应配置。
 
 ![](../assets/2-20231002173029-9mm0pbh.png)​
 

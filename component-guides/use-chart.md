@@ -1,7 +1,7 @@
 # 使用图表组件(Charts and graphs)
 本文档介绍如何使用图表组件可视化展示数据，使数据理解和数据分析更加简单高效。
 
-<figure><img src="../assets/charts-and-graphs-1.gif" alt=""><figcaption></figcaption></figure>
+![](../assets/charts-and-graphs-1.gif)
 
 ## UI 模式
 
@@ -52,31 +52,31 @@ return result;
 
 然后引用转换器的值 `{{transformer1.value}}`，作为图表组件的数据：
 
-<figure><img src="../assets/7.png" alt=""><figcaption></figcaption></figure>
+![](../assets/7.png)
 
 ### 图表类型
 
 目前支持的图表类型有四种： **柱状图** 、 **折线图** 、**散点图**和 **饼图** 。可以在右侧属性面板中切换 **图表类型** 、设置**布局**与**样式**等。
 
-<figure><img src="../assets/8.png" alt=""><figcaption></figcaption></figure>
+![](../assets/8.png)
 
 ### X 轴
 
 图表的 **X 轴**是数据分类的基准，通常选择数据的 **非数值字段** ，如按时间、按部门分类。
 
-<figure><img src="../assets/9.png" alt=""><figcaption></figcaption></figure>
+![](../assets/9.png)
 
 ### 图表序列
 
 **图表序列**可以理解为图表的 Y 轴，用于展示数据。默认展示数据的所有 **数值字段** ，可以在属性面板中进行修改。
 
-<figure><img src="../assets/10.png" alt=""><figcaption></figcaption></figure>
+![](../assets/10.png)
 
 ## Echarts JSON
 
 lowcoder还集成了 [Apache ECharts](https://echarts.apache.org/zh/index.html) —— 一个基于 JavaScript 的开源可视化图表库，只需要填写**选项配置**即可使用。目前支持纯 JSON 格式的数据，可参考 [ECharts 选项配置](https://echarts.apache.org/zh/option.html)和 [ECharts 示例](https://echarts.apache.org/examples/zh/index.html)。
 
-<figure><img src="../assets/1.gif" alt=""><figcaption></figcaption></figure>
+![](../assets/1.gif)
 
 ### 快速测试是否支持图表类型
 
@@ -86,18 +86,18 @@ lowcoder还集成了 [Apache ECharts](https://echarts.apache.org/zh/index.html) 
 
 本次以[动态排序折线图](https://echarts.apache.org/examples/zh/editor.html?c=line-race)为例。
 
-<figure><img src="../assets/2.gif" alt=""><figcaption></figcaption></figure>
+![](../assets/2.gif)
 
 打开示例页面，左侧代码编辑框下拉到 `option` 赋值语句，在下一行输入 `console.log(option)` 来打印 `option`
 
-<figure><img src="../assets/11.png" alt=""><figcaption></figcaption></figure>
+![](../assets/11.png)
 
 按F12打开**开发者选项** > **控制台**，找到最后打印的 **Object** 即为刚输出的**option**，点击右键选择**复制object**
 
-<figure><img src="../assets/12.png" alt=""><figcaption></figcaption></figure>
+![](../assets/12.png)
 
 #### 设置数据结构
 
 在lowcoder中添加Chart组件，并切换到Echarts JSON模式，将复制的JSON数据粘贴到选项中，即可实时预览。
 
-<figure><img src="../assets/13.png" alt=""><figcaption></figcaption></figure>
+![](../assets/13.png)

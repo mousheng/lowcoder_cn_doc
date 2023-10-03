@@ -6,11 +6,11 @@
 
 * **文本组件** ：**内容**可选择为 Markdown
 
-<figure><img src="../assets/1-20230810212140-w4zdavd.png" alt=""><figcaption></figcaption></figure>
+![](../assets/1-20230810212140-w4zdavd.png)
 
 * **表格组件** ：**列类型**可设置为 Markdown
 
-<figure><img src="../assets/2-20230810212140-4kf9oqf.png" alt=""><figcaption></figcaption></figure>
+![](../assets/2-20230810212140-4kf9oqf.png)
 
 Lowcoder支持所有 Markdown 的基本语法：
 

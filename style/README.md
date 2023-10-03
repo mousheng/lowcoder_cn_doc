@@ -34,7 +34,7 @@ Lowcoder中所有组件的属性面板都有样式一栏，通过修改默认的
 
 ### 创建主题
 
-**企业管理员**可以在[Lowcoder主页](https://cloud.majiang.co/)的企业设置界面创建主题。依次点击左侧边栏的**设置** -> **主题** -> **创建主题**并输入名称。您可以先选择一个Lowcoder中的现有主题，基于其进行自定义。
+**企业管理员**可以在[Lowcoder主页](https://lowcoder.mousheng.top/)的企业设置界面创建主题。依次点击左侧边栏的**设置** -> **主题** -> **创建主题**并输入名称。您可以先选择一个Lowcoder中的现有主题，基于其进行自定义。
 
 ![](../assets/n3-20231002181022-uz2d35x.png)​
 
@@ -69,7 +69,7 @@ Lowcoder中所有组件的属性面板都有样式一栏，通过修改默认的
 >
 > 终端用户在应用中切换主题后，`theme_id`​ 将保存在浏览器的本地存储 (Local Storage) 中。新主题将覆盖开发者为应用静态配置的[预设主题](../style#%E9%A2%84%E8%AE%BE%E4%B8%BB%E9%A2%98)，且对当前浏览器环境下的所有应用生效。
 
-配合[选项列表配置](../component-guides/option-list)和[事件动作设置](../event-handler#%E4%BA%8B%E4%BB%B6%E5%8A%A8%E4%BD%9C%E8%AE%BE%E7%BD%AE)，可使终端用户在使用过程中主动切换应用主题，效果如下图所示，也可直接点击 [demo](https://cloud.majiang.co/apps/63f8579439329f691001c991/view) 链接查看和试用。
+配合[选项列表配置](../component-guides/option-list)和[事件动作设置](../event-handler#%E4%BA%8B%E4%BB%B6%E5%8A%A8%E4%BD%9C%E8%AE%BE%E7%BD%AE)，可使终端用户在使用过程中主动切换应用主题，效果如下图所示，也可直接点击 [demo](https://lowcoder.mousheng.top/apps/63f8579439329f691001c991/view) 链接查看和试用。
 
 ![](../assets/n7-20231002181022-wq4o0if.gif)​
 
@@ -109,7 +109,7 @@ Lowcoder中所有组件的属性面板都有样式一栏，通过修改默认的
 
 ### 预加载 CSS
 
-企业管理员进入[Lowcoder主页](https://cloud.majiang.co/)，依次点击左侧边栏的**设置** -> ​**高级设置**​，可以为当前企业下的**所有应用**设置预加载的 CSS 代码。
+企业管理员进入[Lowcoder主页](https://lowcoder.mousheng.top/)，依次点击左侧边栏的**设置** -> ​**高级设置**​，可以为当前企业下的**所有应用**设置预加载的 CSS 代码。
 
 ![](../assets/n12-20231002181022-ze1zqj1.png)​
 

@@ -9,25 +9,25 @@ description: >-
 
 使用 **列表组件 (List View)** ，可以将可迭代的**数组 (Array)** 数据，通过图片、文本、数据输入等组件展示成形式各样的自定义列表行。与表单、对话框和抽屉等类似，列表是容器类组件，可以容纳任意组件和模块，还可以嵌套其他列表。只需要先配置好列表的**数据字段**和用于迭代的**子项变量**的命名，再通过拖拽内部组件设计好**首行**的展示效果，其他行的数据也将相应地自动展示，无需额外操作。
 
-<figure><img src="../assets/1-20230810212038-wks3xck.gif" alt=""><figcaption></figcaption></figure>
+![](../assets/1-20230810212038-wks3xck.gif)
 
 ## 快速上手
 
 拖拽一个列表组件到画布上，将自动填充示例数据，此时列表的行数为数组的长度 `3`。列表的每一行都包含了一个图片组件、链接组件和评分组件。其中第一行组件的布局、样式、数据、属性是可以配置的，其他行将根据首行配置相应地自动展示。
 
-<figure><img src="../assets/2-20230810212039-4kehz65.png" alt=""><figcaption></figcaption></figure>
+![](../assets/2-20230810212039-4kehz65.png)
 
 点击选中图片组件，可以看到，通过 `{{currentItem.cover}}` 可以获取到当前对象数据的 `cover` 字段。因为列表的数据是一个可迭代的数组，每一行展示的数据就是数组中每一个不同的对象。如果图片地址填写的是静态地址，图片就会重复展示多次。
 
-<figure><img src="../assets/3-20230810212038-dd9ev8i.png" alt=""><figcaption></figcaption></figure>
+![](../assets/3-20230810212038-dd9ev8i.png)
 
 类似地，评分组件的值是先通过 `{{currentItem.rate}}` 获取到当前对象数据的 `rate` 字段，再通过[使用 JavaScript](../javascript-in-lowcoder/javascript-query.md) 进行基础运算得到。
 
-<figure><img src="../assets/4-20230810212039-kwn1t3k.png" alt=""><figcaption></figcaption></figure>
+![](../assets/4-20230810212039-kwn1t3k.png)
 
 链接组件的文本则是同时引用了子项下标 `i` 和子项对象的 `title` 字段。两种子项变量均支持自定义命名。
 
-<figure><img src="../assets/5-20230810212039-0ejogj3.png" alt=""><figcaption></figcaption></figure>
+![](../assets/5-20230810212039-0ejogj3.png)
 
 ## 数据
 
@@ -55,15 +55,15 @@ description: >-
 
 输入的列表数据、以及各行所有组件包含的内置属性都可在左侧数据浏览器中查看，如下图所示的 `listView1.data` 和 `listView1.items`。
 
-<figure><img src="../assets/6-20230810212039-gaq0zqi.png" alt=""><figcaption></figcaption></figure>
+![](../assets/6-20230810212039-gaq0zqi.png)
 
-<figure><img src="../assets/7-20230810212039-axag546.png" alt=""><figcaption></figcaption></figure>
+![](../assets/7-20230810212039-axag546.png)
 
 ## 子项变量命名
 
 子项对象本身、子项下标都支持自定义变量名。例如，需要在列表内嵌套另一个列表时，就可以将内层列表的下标命名为 `j`，与外层下标 `i` 进行区分：
 
-<figure><img src="../assets/8-20230810212039-umjyhcw.png" alt=""><figcaption></figcaption></figure>
+![](../assets/8-20230810212039-umjyhcw.png)
 
 ### 子项下标
 
@@ -82,13 +82,13 @@ description: >-
 
 ## 分页设置
 
-<figure><img src="../assets/9-20230810212039-szgd4e5.png" alt=""><figcaption></figcaption></figure>
+![](../assets/9-20230810212039-szgd4e5.png)
 
 ### 快速跳转
 
 开启**显示快速跳转**开关，或者值为 `True` 时，用户可以在浏览列表时快速跳转到指定页码，如下图。
 
-<figure><img src="../assets/10-20230810212039-814ukzk.png" alt=""><figcaption></figcaption></figure>
+![](../assets/10-20230810212039-814ukzk.png)
 
 ### 每页条数
 
@@ -96,11 +96,11 @@ description: >-
 
 * 关闭开关时，每页条数为固定值，支持写 JavaScript
 
-<figure><img src="../assets/11-20230810212039-sti576d.png" alt=""><figcaption></figcaption></figure>
+![](../assets/11-20230810212039-sti576d.png)
 
 * 开启开关时，用户可以从预设的条数列表中任意选择，条数列表同样支持写 JavaScript
 
-<figure><img src="../assets/12-20230810212038-abg6tei.png" alt=""><figcaption></figcaption></figure>
+![](../assets/12-20230810212038-abg6tei.png)
 
 ### 数据总数
 

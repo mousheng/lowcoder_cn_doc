@@ -24,28 +24,28 @@ Lowcoder中最常见的工作流程：让开发人员在编辑模式下搭建和
 
 您可以查看以前的任何版本。单击**预览** **>** **历史记录**。
 
-![](<../.gitbook/assets/image (11) (1).png>)
+![](./assets/image%20(11)%20(1).png)
 
 ### 恢复历史版本
 
 您可以在右侧选中历史记录中的某一版本，预览区即可预览，然后选择 **恢复到此版本** ，此时应用便恢复到该历史版本：
 
-<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+![](./assets/1.png)
 
 ## 应用发布与版本管理
 
 在应用编辑界面，点击窗口右上角**预览**按钮右侧下拉箭头 ，可看到**发布**按钮。
 
-<figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
+![](./assets/2.png)
 
 应用发布功能主要用于控制终端用户的可见版本。每一次编辑界面的操作 —— 如新增组件、修改组件设置、调整组件位置以及创建查询等，都意味着应用的版本迭代，例如：
 
- <figure><img src="../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
+ ![](./assets/3.png)
 
 上图中，编辑者进行了一系列操作，相应地，应用版本会不断更新，当前最新版本为版本4。
 假设编辑者在编辑 `button1`（即版本2时）之后，选择发布应用：
 
-  <figure><img src="../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+  ![](./assets/5.png)
 
 此时，用户点击**查看**应用与**编辑**应用（授予可编辑身份才能对应用进行编辑，可参阅**应用权限**）所请求的版本为：
 
@@ -56,7 +56,7 @@ Lowcoder中最常见的工作流程：让开发人员在编辑模式下搭建和
 
 如果从未发布过应用，那么用户点击**查看**与**编辑**请求的都是最新版本：
 
-  <figure><img src="../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
+  ![](./assets/6.png)
 
 | **操作**         | **请求应用版本** |
 | ------------------------ | ------------------------ |

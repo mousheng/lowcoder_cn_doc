@@ -6,7 +6,7 @@
 
 首先将一个**图片**组件拖放到画布上（或者拖放到一个容器内等），单击该组件，您会在属性编辑区看到**图片地址**输入框，输入图片的 URL 便可引用图片到组件中显示。
 
-<figure><img src="../assets/image-1.png" alt=""><figcaption></figcaption></figure>
+![](../assets/image-1.png)
 
 ## 通过 Base64 字符串展示图片
 
@@ -16,7 +16,7 @@
 
 <mark style="background-color:yellow;">`data:image;base64`</mark><mark style="background-color:yellow;">**`,`**</mark><mark style="background-color:yellow;">`YOUR_BASE64_ENCODED_IMAGE_DATA`</mark>
 
-<figure><img src="../assets/image-2.png" alt=""><figcaption></figcaption></figure>
+![](../assets/image-2.png)
 
 ### Demo: 上传图片并显示
 
@@ -26,10 +26,10 @@
 {{"data:image/jpeg;base64," + file1.value[0]}}
 ```
 
-<figure><img src="../assets/image-3.png" alt=""><figcaption></figcaption></figure>
+![](../assets/image-3.png)
 
 ## 支持点击预览
 
 打开`支持点击预览`后，当数据图片数据有效时，点击图片组件即可全屏预览图片。
 
-<figure><img src="../assets/image-4.png" alt=""><figcaption></figcaption></figure>
+![](../assets/image-4.png)

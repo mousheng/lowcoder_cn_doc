@@ -48,7 +48,7 @@
 {{ num1 > num2 ? num1 : num2 }} // ✅ 三目运算符
 ```
 
-下面这些写法是不合法的 `{{ }}`​ 表达式写法，您可以创建[转换器](../javascript-in-majiang/using-transformer)来编写如下的多行代码：
+下面这些写法是不合法的 `{{ }}`​ 表达式写法，您可以创建[转换器](../javascript-in-lowcoder/using-transformer)来编写如下的多行代码：
 
 ```javascript
 {{ 
