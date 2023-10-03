@@ -20,7 +20,7 @@
 
 ## 数据只读
 
-转换器中不能修改查询/组件/临时状态的值，也不能触发查询等，如需上述功能可以编写 [JS 查询](https://www.majiang.co/docs/using-javascript)。
+转换器中不能修改查询/组件/临时状态的值，也不能触发查询等，如需上述功能可以编写 [JS 查询](./javascript-query.md)。
 
 如下所示，transformer1 希望将 restApiQuery 的数据按照 age 字段排序并返回，因为 sort 方法会修改原始数据 `restApiQuery.data`​，所以报错。
 
